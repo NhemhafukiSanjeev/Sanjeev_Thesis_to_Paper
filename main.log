@@ -1,0 +1,1039 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.13)  9 FEB 2024 09:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3ke
+ys2e.sty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-09-28 L3 programming layer (loader) 
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count197
+\l__pdf_internal_box=\box51
+))
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count198
+\l__lipsum_a_int=\count199
+\l__lipsum_b_int=\count266
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen147
+\stockheight=\dimen148
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen151
+\captionmargin=\dimen152
+\caption@leftmargin=\dimen153
+\caption@rightmargin=\dimen154
+\caption@width=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count267
+\c@continuedfloat=\count268
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count270
+\output=\toks18
+\linenoprevgraf=\count271
+\linenumbersep=\dimen159
+\linenumberwidth=\dimen160
+\c@linenumber=\count272
+\c@pagewiselinenumber=\count273
+\c@LN@truepage=\count274
+\c@internallinenumber=\count275
+\c@internallinenumbers=\count276
+\quotelinenumbersep=\dimen161
+\bframerule=\dimen162
+\bframesep=\dimen163
+\bframebox=\box52
+LaTeX Info: Redefining \\ on input line 3180.
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count277
+\bibleftmargin=\skip49
+\bibindent=\skip50
+\bibparsep=\skip51
+\bibitemsep=\skip52
+\biblabelsep=\skip53
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \citeyear on input line 735.
+\c@NAT@ctr=\count278
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen164
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen165
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count279
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count280
+\leftroot@=\count281
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count282
+\DOTSCASE@=\count283
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count284
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count285
+\dotsspace@=\muskip16
+\c@parentequation=\count286
+\dspbrk@lvl=\count287
+\tag@help=\toks20
+\row@=\count288
+\column@=\count289
+\maxfields@=\count290
+\andhelp@=\toks21
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks22
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\linenoamsmath@ams@eqpen=\count291
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count292
+\@cmidlb=\count293
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count294
+\@lastruleclass=\count295
+\@thisrulewidth=\dimen185
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count296
+\multirow@dima=\skip60
+\bigstrutjot=\dimen186
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nome
+tadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count297
+\float@exts=\toks24
+\float@box=\box55
+\@float@everytoks=\toks25
+\@floatcapt=\box56
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen187
+\ar@mcellbox=\box57
+\extrarowheight=\dimen188
+\NC@list=\toks26
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box58
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+
+! Package siunitx Error: Support package expl3 too old.
+
+See the siunitx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43   }
+        %
+You need to update your installation of 'l3kernel'.
+Loading\nobreakspace {}siunitx\nobreakspace {}will\nobreakspace {}abort!
+
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen189
+\TX@old@table=\dimen190
+\TX@old@col=\dimen191
+\TX@target=\dimen192
+\TX@delta=\dimen193
+\TX@cols=\count298
+\TX@ftn=\toks27
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip63
+\cftbeforetoctitleskip=\skip64
+\cftaftertoctitleskip=\skip65
+\cftbeforepartskip=\skip66
+\cftpartnumwidth=\skip67
+\cftpartindent=\skip68
+\cftbeforechapskip=\skip69
+\cftchapindent=\skip70
+\cftchapnumwidth=\skip71
+\cftbeforesecskip=\skip72
+\cftsecindent=\skip73
+\cftsecnumwidth=\skip74
+\cftbeforesubsecskip=\skip75
+\cftsubsecindent=\skip76
+\cftsubsecnumwidth=\skip77
+\cftbeforesubsubsecskip=\skip78
+\cftsubsubsecindent=\skip79
+\cftsubsubsecnumwidth=\skip80
+\cftbeforeparaskip=\skip81
+\cftparaindent=\skip82
+\cftparanumwidth=\skip83
+\cftbeforesubparaskip=\skip84
+\cftsubparaindent=\skip85
+\cftsubparanumwidth=\skip86
+\cftbeforeloftitleskip=\skip87
+\cftafterloftitleskip=\skip88
+\cftbeforefigskip=\skip89
+\cftfigindent=\skip90
+\cftfignumwidth=\skip91
+\c@lofdepth=\count299
+\c@lotdepth=\count300
+\cftbeforelottitleskip=\skip92
+\cftafterlottitleskip=\skip93
+\cftbeforetabskip=\skip94
+\cfttabindent=\skip95
+\cfttabnumwidth=\skip96
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen194
+\c@nlinenum=\count301
+\TeXr@lab=\toks28
+) (main.aux
+
+LaTeX Warning: Label `fig:conceptualfw' multiply defined.
+
+
+LaTeX Warning: Label `fig:hviletecomponents' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count302
+\scratchdimen=\dimen195
+\scratchbox=\box59
+\nofMPsegments=\count303
+\nofMParguments=\count304
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen196
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
+\everyMPtoPDFconversion=\toks30
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@maskedRefs=\count308
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+) [1
+
+{C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [1]
+[2] [3] [4] [5] (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[6])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [7] (main.lot)
+\tf@lot=\write4
+\openout4 = `main.lot'.
+
+ [6
+
+] (main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [7]
+Overfull \hbox (24.78761pt too wide) in paragraph at lines 235--262
+[] 
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
+
+ []
+
+[1
+
+] [2] [3] [4] [5]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 \end{enumerate}  \\ \vspace
+                                 {0.5cm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 361--364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 387--390
+
+ []
+
+[9
+
+] [10] [11] [12] [13] [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+
+ []
+
+[16
+
+]
+<Conceptual framework for Household Vulnerability Index1.png, id=90, 548.54938p
+t x 273.52188pt>
+File: Conceptual framework for Household Vulnerability Index1.png Graphic file 
+(type png)
+<use Conceptual framework for Household Vulnerability Index1.png>
+Package pdftex.def Info: Conceptual framework for Household Vulnerability Index
+1.png  used on input line 493.
+(pdftex.def)             Requested size: 438.84009pt x 218.8178pt.
+
+Overfull \hbox (12.04874pt too wide) in paragraph at lines 493--495
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--497
+
+ []
+
+[17]
+<Objective 2.png, id=95, 494.84875pt x 272.51813pt>
+File: Objective 2.png Graphic file (type png)
+<use Objective 2.png>
+Package pdftex.def Info: Objective 2.png  used on input line 505.
+(pdftex.def)             Requested size: 445.35977pt x 245.26404pt.
+
+Overfull \hbox (18.56842pt too wide) in paragraph at lines 505--507
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--517
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./Conceptual framework for Household Vulnerability Index1.png>]
+<Study site.png, id=100, 1445.4pt x 813.0375pt>
+File: Study site.png Graphic file (type png)
+<use Study site.png>
+Package pdftex.def Info: Study site.png  used on input line 532.
+(pdftex.def)             Requested size: 448.06937pt x 252.03902pt.
+
+Overfull \hbox (21.27802pt too wide) in paragraph at lines 532--533
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--535
+
+ []
+
+[19 <./Objective 2.png>]
+Overfull \hbox (42.68893pt too wide) in paragraph at lines 551--567
+[][] 
+ []
+
+[20 <./Study site.png>]
+Overfull \hbox (3.07915pt too wide) in paragraph at lines 586--586
+[]|\OT1/cmr/m/n/12 dependency[]ratio| 
+ []
+
+[21] [22] [23] [24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 673--676
+
+ []
+
+[26
+
+]
+Overfull \hbox (22.76585pt too wide) in paragraph at lines 694--719
+[][]
+ []
+
+
+LaTeX Warning: Float too large for page by 51.93214pt on input line 719.
+
+[27] [28
+
+
+] [29] [30]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--793
+[][]
+ []
+
+[31] [32] [33] [34] [35]
+<HVI_Summary_District_Panel25012024.pdf, id=166, 614.295pt x 794.97pt>
+File: HVI_Summary_District_Panel25012024.pdf Graphic file (type pdf)
+<use HVI_Summary_District_Panel25012024.pdf>
+Package pdftex.def Info: HVI_Summary_District_Panel25012024.pdf  used on input 
+line 854.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+
+Overfull \hbox (64.64531pt too wide) in paragraph at lines 854--857
+[][]
+ []
+
+[36] [37 <./HVI_Summary_District_Panel25012024.pdf>]
+<HVI_Summary_VDC_05022024.png, id=187, 611.28375pt x 386.94562pt>
+File: HVI_Summary_VDC_05022024.png Graphic file (type png)
+<use HVI_Summary_VDC_05022024.png>
+Package pdftex.def Info: HVI_Summary_VDC_05022024.png  used on input line 886.
+(pdftex.def)             Requested size: 427.8957pt x 270.86008pt.
+
+Overfull \hbox (1.10435pt too wide) in paragraph at lines 886--889
+[][]
+ []
+
+[38 <./HVI_Summary_VDC_05022024.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 903.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--916
+[][]
+ []
+
+<HVI_Component_Chainpur1.pdf, id=193, 614.295pt x 794.97pt>
+File: HVI_Component_Chainpur1.pdf Graphic file (type pdf)
+<use HVI_Component_Chainpur1.pdf>
+Package pdftex.def Info: HVI_Component_Chainpur1.pdf  used on input line 924.
+(pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
+
+Overfull \hbox (3.2122pt too wide) in paragraph at lines 924--927
+[][]
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 939--947
+[][]
+ []
+
+<HVI_Component_Hemja1.pdf, id=197, 794.97pt x 614.295pt>
+File: HVI_Component_Hemja1.pdf Graphic file (type pdf)
+<use HVI_Component_Hemja1.pdf>
+Package pdftex.def Info: HVI_Component_Hemja1.pdf  used on input line 954.
+(pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
+
+Overfull \hbox (50.19434pt too wide) in paragraph at lines 954--957
+[][]
+ []
+
+[40 <./HVI_Component_Chainpur1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 968--977
+[][]
+ []
+
+[41 <./HVI_Component_Hemja1.pdf>]
+<HVI_Component_Kunjo1.pdf, id=226, 794.97pt x 614.295pt>
+File: HVI_Component_Kunjo1.pdf Graphic file (type pdf)
+<use HVI_Component_Kunjo1.pdf>
+Package pdftex.def Info: HVI_Component_Kunjo1.pdf  used on input line 983.
+(pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
+
+Overfull \hbox (50.19434pt too wide) in paragraph at lines 983--986
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 997--1004
+[][]
+ []
+
+[42 <./HVI_Component_Kunjo1.pdf>]
+<HVI_Component_Lete1.pdf, id=241, 794.97pt x 614.295pt>
+File: HVI_Component_Lete1.pdf Graphic file (type pdf)
+<use HVI_Component_Lete1.pdf>
+Package pdftex.def Info: HVI_Component_Lete1.pdf  used on input line 1010.
+(pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
+
+Overfull \hbox (50.19434pt too wide) in paragraph at lines 1010--1012
+[][] 
+ []
+
+[43 <./HVI_Component_Lete1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+
+ []
+
+<Sankey.png, id=256, 761.84625pt x 415.5525pt>
+File: Sankey.png Graphic file (type png)
+<use Sankey.png>
+Package pdftex.def Info: Sankey.png  used on input line 1025.
+(pdftex.def)             Requested size: 457.11128pt x 249.33342pt.
+
+Overfull \hbox (30.31993pt too wide) in paragraph at lines 1025--1027
+[][] 
+ []
+
+[44 <./Sankey.png>] [45] [46] [47
+
+] [48] [49] [50] [51] [52] [53] [54] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 1222--1224
+
+ []
+
+[56
+
+] [57] [58] [59] (main.bbl [60
+
+
+] [61] [62] [63] [64]
+Underfull \hbox (badness 10000) in paragraph at lines 1699--1710
+[]\OT1/cmr/m/n/12 The World Bank.  (2022).  \OT1/cmr/m/it/12 Ur-ban and ru-ral 
+pop-u-la-tion.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1747--1758
+[]\OT1/cmr/m/n/12 United Na-tions.  (2018).  \OT1/cmr/m/it/12 World ur-ban-iza-
+tion prospects 2018.
+ []
+
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 1996--2007
+[]\OT1/cmr/m/n/12 World Bank.  (2021).  \OT1/cmr/m/it/12 Ru-ral pop-u-la-tion (
+% of to-tal pop-u-la-tion).
+ []
+
+) [66] [67
+
+]
+Overfull \hbox (65.4805pt too wide) in paragraph at lines 1282--1310
+[][]
+ []
+
+
+LaTeX Warning: Float too large for page by 65.94655pt on input line 1310.
+
+[68]
+Overfull \hbox (22.78433pt too wide) in paragraph at lines 1319--1332
+[][] 
+ []
+
+[69
+
+
+
+]
+<HVI_Component_Village_Panel.pdf, id=342, 794.97pt x 614.295pt>
+File: HVI_Component_Village_Panel.pdf Graphic file (type pdf)
+<use HVI_Component_Village_Panel.pdf>
+Package pdftex.def Info: HVI_Component_Village_Panel.pdf  used on input line 13
+39.
+(pdftex.def)             Requested size: 635.97687pt x 491.43666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[70 <./HVI_Component_Village_Panel.pdf>]
+Overfull \hbox (21.34781pt too wide) in paragraph at lines 1352--1390
+[][]
+ []
+
+
+Overfull \hbox (21.33868pt too wide) in paragraph at lines 1395--1435
+[][]
+ []
+
+[71
+
+
+
+]
+Overfull \hbox (21.34776pt too wide) in paragraph at lines 1441--1477
+[][]
+ []
+
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 1485--1488
+
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 1492--1495
+[]\OT1/cmr/m/n/12 data: HVI $\OMS/cmsy/m/n/12 ^^X$ \OT1/cmr/m/n/12 En-vi-ron-me
+n-tal De-pen-dency + Debt + De-pen-dency ra-tio + shock+... 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1492--1495
+
+ []
+
+
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 1498--1501
+[]\OT1/cmr/m/n/12 data: HVI $\OMS/cmsy/m/n/12 ^^X$ \OT1/cmr/m/n/12 En-vi-ron-me
+n-tal De-pen-dency + Debt + De-pen-dency ra-tio + shock+... 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1502--1506
+
+ []
+
+[73
+
+] (main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8217 strings out of 475385
+ 142268 string characters out of 2777379
+ 638421 words of memory out of 3000000
+ 29441 multiletter control sequences out of 15000+600000
+ 480492 words of font info for 67 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,18n,77p,1904b,457s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/DELL/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/DELL/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DELL/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/DELL/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
+10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmti12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti8.pfb>
+Output written on main.pdf (84 pages, 2337077 bytes).
+PDF statistics:
+ 423 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+

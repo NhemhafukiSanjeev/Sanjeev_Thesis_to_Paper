@@ -1,0 +1,140 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: bibliography.bib
+I was expecting a `,' or a `}'---line 195 of file bibliography.bib
+ :  
+ :  howpublished={https://www.delmi.se/media/l4acp0cq/delmi-research-overview-2022_2-webb}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 349 of file bibliography.bib
+ : @article{dfid1999sustainable
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 751 of file bibliography.bib
+ : @incollection{scoones2013livelihoods
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 945 of file bibliography.bib
+ : @book{chambers1992sustainable
+ :                              ,
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5062 of file apacite.bst
+Name 2 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5062 of file apacite.bst
+Name 3 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5062 of file apacite.bst
+Name 4 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5062 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5066 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5066 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5068 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5068 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5072 of file apacite.bst
+Name 2 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5072 of file apacite.bst
+Name 3 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5072 of file apacite.bst
+Name 4 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5072 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5075 of file apacite.bst
+Name 2 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5075 of file apacite.bst
+Name 3 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5075 of file apacite.bst
+Name 4 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5075 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5076 of file apacite.bst
+Name 2 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5076 of file apacite.bst
+Name 3 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5076 of file apacite.bst
+Name 4 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5076 of file apacite.bst
+Warning--No address in buhler2018shocks
+Warning--No journal in calvo2005measuring
+Warning--No journal in chambers1989editorial
+Warning--No journal in diaz2019livelihood
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Name 2 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Name 3 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Name 4 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Name 1 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Name 2 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Name 3 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Name 4 in "FAO, and IFAD, and UNICEF, and WFP, and WHO" has a comma at the end for entry world2021state
+while executing---line 5079 of file apacite.bst
+Warning--No journal in world2021state
+Warning--No journal in Researchoverview2022
+You've used 75 entries,
+            6951 wiz_defined-function locations,
+            1689 strings with 25574 characters,
+and the built_in function-call counts, 158222 in all, are:
+= -- 19288
+> -- 1188
+< -- 8774
++ -- 8836
+- -- 172
+* -- 10688
+:= -- 31373
+add.period$ -- 313
+call.type$ -- 75
+change.case$ -- 1279
+chr.to.int$ -- 0
+cite$ -- 156
+duplicate$ -- 3783
+empty$ -- 5550
+format.name$ -- 1989
+if$ -- 28768
+int.to.chr$ -- 0
+int.to.str$ -- 225
+missing$ -- 0
+newline$ -- 1863
+num.names$ -- 600
+pop$ -- 2353
+preamble$ -- 1
+purify$ -- 300
+quote$ -- 0
+skip$ -- 9546
+stack$ -- 0
+substring$ -- 9426
+swap$ -- 2175
+text.length$ -- 186
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 6320
+warning$ -- 6
+while$ -- 671
+width$ -- 0
+write$ -- 2317
+(There were 33 error messages)

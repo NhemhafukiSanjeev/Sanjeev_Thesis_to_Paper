@@ -1,0 +1,55 @@
+\contentsline {section}{DECLARATION}{i}{}%
+\contentsline {section}{LETTER OF RECOMMENDATION}{ii}{}%
+\contentsline {section}{APPROVAL LETTER}{iii}{}%
+\contentsline {section}{ACKNOWLEDGMENTS}{iv}{}%
+\contentsline {section}{\MakeUppercase {Abstract}}{v}{}%
+\contentsline {section}{\MakeUppercase {List of Tables}}{vi}{}%
+\contentsline {section}{\MakeUppercase {List of Figures}}{vii}{}%
+\contentsline {section}{\MakeUppercase {List of Acronyms}}{viii}{}%
+\contentsline {section}{\textbf {CHAPTER I: INTRODUCTION}}{1}{}%
+\contentsline {subsection}{1.1 Background of the Study}{1}{}%
+\contentsline {subsection}{1.2 Statement of the Problem }{4}{}%
+\contentsline {subsection}{1.3 Research Questions }{5}{}%
+\contentsline {subsection}{1.4 Objectives of the Study }{6}{}%
+\contentsline {subsection}{1.5 Significance of the Study}{6}{}%
+\contentsline {subsection}{1.6 Scope and Limitations of the Study}{7}{}%
+\contentsline {subsection}{1.7 Organizations of the Study}{8}{}%
+\contentsline {section}{\textbf {CHAPTER II: REVIEW OF LITERATURE}}{9}{}%
+\contentsline {subsection}{2.1 Introduction}{9}{}%
+\contentsline {subsection}{2.2 Household Vulnerability}{10}{}%
+\contentsline {subsection}{2.3 Review of National Studies}{12}{}%
+\contentsline {subsection}{2.4 Research Gap}{13}{}%
+\contentsline {section}{\textbf {CHAPTER III: RESEARCH METHODOLOGY }}{16}{}%
+\contentsline {subsection}{3.1 Philosophical Issues}{16}{}%
+\contentsline {subsection}{3.2 Research Design}{16}{}%
+\contentsline {subsection}{3.3 Conceptual Framework}{16}{}%
+\contentsline {subsubsection}{3.3.1. Household Vulnerability Index}{17}{}%
+\contentsline {subsection}{\ \ \ \ \ 3.3.1 Household Vulnerability Index}{17}{}%
+\contentsline {subsubsection}{3.3.2. Household Vulnerability and Environmental Dependence}{18}{}%
+\contentsline {subsection}{\ \ \ \ \ 3.3.2 Household Vulnerability and Environmental Dependence}{18}{}%
+\contentsline {subsection}{3.4 Sources and Nature of the Data}{19}{}%
+\contentsline {subsection}{3.5 Techniques of Data Analysis}{21}{}%
+\contentsline {subsubsection}{3.5.1. Household Vulnerability Index}{22}{}%
+\contentsline {subsection}{\ \ \ \ \ 3.5.1 Household Vulnerability Index}{22}{}%
+\contentsline {subsubsection}{3.5.2. Household Vulnerability and Environmental Dependence}{23}{}%
+\contentsline {subsection}{\ \ \ \ \ 3.5.2 Household Vulnerability and Environmental Dependence}{23}{}%
+\contentsline {subsubsection}{3.5.3. Diagnostic Tests}{24}{}%
+\contentsline {subsection}{\ \ \ \ \ 3.5.3. Diagnostic Tests}{24}{}%
+\contentsline {subsubsection}{3.5.3.1 Individual Effects Test}{24}{}%
+\contentsline {subsubsection}{3.5.3.2 Time Fixed Effects Test}{24}{}%
+\contentsline {subsubsection}{3.5.3.3 Breusch-Pagan Lagrange Multiplier (BPLM) Test}{25}{}%
+\contentsline {subsubsection}{3.5.3.4 Hausman Specification Test}{25}{}%
+\contentsline {section}{\textbf {CHAPTER IV: RESULTS AND DISCUSSION }}{26}{}%
+\contentsline {subsection}{4.1 Descriptive Analysis}{26}{}%
+\contentsline {subsection}{4.2 Environmental Dependence and Household Vulnerability}{31}{}%
+\contentsline {subsection}{4.3 District and Village level Household Vulnerability}{35}{}%
+\contentsline {subsection}{4.4 Component of the Household Vulnerability}{39}{}%
+\contentsline {subsection}{4.5 Persistence and Transience of Household Vulnerability}{44}{}%
+\contentsline {subsection}{4.6 Results from Empirical Analysis}{47}{}%
+\contentsline {subsection}{4.7 Discussion}{53}{}%
+\contentsline {section}{\textbf {CHAPTER V: CONCLUSION AND RECOMMENDATIONS }}{56}{}%
+\contentsline {subsection}{5.1 Summary of the Findings}{56}{}%
+\contentsline {subsection}{5.2 Conclusion}{57}{}%
+\contentsline {subsection}{5.3 Recommendations and Possible Extensions}{58}{}%
+\contentsline {section}{\textbf {REFERENCES }}{67}{}%
+\contentsline {section}{\textbf {APPENDICES }}{68}{}%
