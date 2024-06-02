@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.13)  2 JUN 2024 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.13)  2 JUN 2024 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -499,6 +499,44 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...ndence in Rural Nepal \\ \vspace{0.8cm} \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 50.
+
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 50.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 50.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
+(Font)              size <12> substituted on input line 50.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 50.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 50.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 50.
+
 LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
 
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -510,6 +548,33 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Calculating math sizes for size <9.09996> on input line 50.
+
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.54997> not available
+(Font)              size <5> substituted on input line 50.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.54997> not available
+(Font)              size <5> substituted on input line 50.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.54997> not available
+(Font)              size <5> substituted on input line 50.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.51 	\end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
@@ -522,7 +587,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--65
 [5
 
 {C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 74--77
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
 
@@ -536,118 +601,118 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141  \end{enumerate}  \\ \vspace
+l.143  \end{enumerate}  \\ \vspace
                                   {0.5cm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+Underfull \hbox (badness 10000) in paragraph at lines 154--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--162
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 185--188
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
 
  []
 
 [9
 
 ] [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 [16
 
 ]
-<Conceptual framework for Household Vulnerability Index1.png, id=59, 548.54938p
+<Conceptual framework for Household Vulnerability Index1.png, id=62, 548.54938p
 t x 273.52188pt>
 File: Conceptual framework for Household Vulnerability Index1.png Graphic file 
 (type png)
 <use Conceptual framework for Household Vulnerability Index1.png>
 Package pdftex.def Info: Conceptual framework for Household Vulnerability Index
-1.png  used on input line 292.
+1.png  used on input line 294.
 (pdftex.def)             Requested size: 438.84009pt x 218.8178pt.
 
-Overfull \hbox (12.04874pt too wide) in paragraph at lines 292--294
+Overfull \hbox (12.04874pt too wide) in paragraph at lines 294--296
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--296
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--296
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--296
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--296
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--296
+Underfull \hbox (badness 10000) in paragraph at lines 286--298
 
  []
 
 [17]
-<Objective 2.png, id=64, 494.84875pt x 272.51813pt>
+<Objective 2.png, id=67, 494.84875pt x 272.51813pt>
 File: Objective 2.png Graphic file (type png)
 <use Objective 2.png>
-Package pdftex.def Info: Objective 2.png  used on input line 304.
+Package pdftex.def Info: Objective 2.png  used on input line 306.
 (pdftex.def)             Requested size: 445.35977pt x 245.26404pt.
 
-Overfull \hbox (18.56842pt too wide) in paragraph at lines 304--306
+Overfull \hbox (18.56842pt too wide) in paragraph at lines 306--308
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--316
+Underfull \hbox (badness 10000) in paragraph at lines 303--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--316
+Underfull \hbox (badness 10000) in paragraph at lines 303--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--316
+Underfull \hbox (badness 10000) in paragraph at lines 303--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--316
+Underfull \hbox (badness 10000) in paragraph at lines 303--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--316
+Underfull \hbox (badness 10000) in paragraph at lines 303--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--316
+Underfull \hbox (badness 10000) in paragraph at lines 303--318
 
  []
 
@@ -655,45 +720,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--316
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./Conceptual framework for Household Vulnerability Index1.png>]
-<Study site.png, id=70, 1445.4pt x 813.0375pt>
+<Study site.png, id=73, 1445.4pt x 813.0375pt>
 File: Study site.png Graphic file (type png)
 <use Study site.png>
-Package pdftex.def Info: Study site.png  used on input line 331.
+Package pdftex.def Info: Study site.png  used on input line 333.
 (pdftex.def)             Requested size: 448.06937pt x 252.03902pt.
 
-Overfull \hbox (21.27802pt too wide) in paragraph at lines 331--332
+Overfull \hbox (21.27802pt too wide) in paragraph at lines 333--334
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--334
+Underfull \hbox (badness 10000) in paragraph at lines 324--336
 
  []
 
 [19 <./Objective 2.png>]
-Overfull \hbox (42.68893pt too wide) in paragraph at lines 350--366
+Overfull \hbox (42.68893pt too wide) in paragraph at lines 352--368
 [][] 
  []
 
 [20 <./Study site.png>]
-Overfull \hbox (3.07915pt too wide) in paragraph at lines 385--385
+Overfull \hbox (3.07915pt too wide) in paragraph at lines 387--387
 []|\OT1/cmr/m/n/12 dependency[]ratio| 
  []
 
 [21] [22] [23] [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
+Underfull \hbox (badness 10000) in paragraph at lines 474--477
 
  []
 
 [26
 
 ]
-Overfull \hbox (22.76585pt too wide) in paragraph at lines 490--515
+Overfull \hbox (22.76585pt too wide) in paragraph at lines 492--517
 [][]
  []
 
 
-LaTeX Warning: Float too large for page by 51.93214pt on input line 515.
+LaTeX Warning: Float too large for page by 51.93214pt on input line 517.
 
 [27] [28
 
@@ -706,7 +771,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 }
+l.589 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -718,7 +783,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 }
+l.589 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -730,7 +795,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 }
+l.589 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -742,7 +807,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 }
+l.589 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -754,7 +819,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 }
+l.589 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -766,132 +831,132 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 }
+l.589 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--589
+Underfull \hbox (badness 10000) in paragraph at lines 567--591
 [][]
  []
 
 [31] [32] [33] [34] [35]
-<HVI_Summary_District_Panel1.pdf, id=134, 614.295pt x 794.97pt>
+<HVI_Summary_District_Panel1.pdf, id=137, 614.295pt x 794.97pt>
 File: HVI_Summary_District_Panel1.pdf Graphic file (type pdf)
 <use HVI_Summary_District_Panel1.pdf>
 Package pdftex.def Info: HVI_Summary_District_Panel1.pdf  used on input line 65
-0.
+2.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 
-Overfull \hbox (64.64531pt too wide) in paragraph at lines 650--653
+Overfull \hbox (64.64531pt too wide) in paragraph at lines 652--655
 [][]
  []
 
 [36] [37 <./HVI_Summary_District_Panel1.pdf>]
-<HVI_Summary_VDC1.pdf, id=156, 794.97pt x 614.295pt>
+<HVI_Summary_VDC1.pdf, id=159, 794.97pt x 614.295pt>
 File: HVI_Summary_VDC1.pdf Graphic file (type pdf)
 <use HVI_Summary_VDC1.pdf>
-Package pdftex.def Info: HVI_Summary_VDC1.pdf  used on input line 682.
+Package pdftex.def Info: HVI_Summary_VDC1.pdf  used on input line 684.
 (pdftex.def)             Requested size: 492.87631pt x 380.85895pt.
 
-Overfull \hbox (66.08496pt too wide) in paragraph at lines 682--685
+Overfull \hbox (66.08496pt too wide) in paragraph at lines 684--687
 [][]
  []
 
 [38 <./HVI_Summary_VDC1.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 700.
+               Default added (so using `tbp') on input line 702.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 704--713
+Underfull \hbox (badness 10000) in paragraph at lines 706--715
 [][]
  []
 
-<HVI_Component_Chainpur1.pdf, id=167, 614.295pt x 794.97pt>
+<HVI_Component_Chainpur1.pdf, id=170, 614.295pt x 794.97pt>
 File: HVI_Component_Chainpur1.pdf Graphic file (type pdf)
 <use HVI_Component_Chainpur1.pdf>
-Package pdftex.def Info: HVI_Component_Chainpur1.pdf  used on input line 721.
+Package pdftex.def Info: HVI_Component_Chainpur1.pdf  used on input line 723.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 
-Overfull \hbox (3.2122pt too wide) in paragraph at lines 721--724
+Overfull \hbox (3.2122pt too wide) in paragraph at lines 723--726
 [][]
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 736--744
+Underfull \hbox (badness 10000) in paragraph at lines 738--746
 [][]
  []
 
-<HVI_Component_Hemja1.pdf, id=171, 794.97pt x 614.295pt>
+<HVI_Component_Hemja1.pdf, id=174, 794.97pt x 614.295pt>
 File: HVI_Component_Hemja1.pdf Graphic file (type pdf)
 <use HVI_Component_Hemja1.pdf>
-Package pdftex.def Info: HVI_Component_Hemja1.pdf  used on input line 751.
+Package pdftex.def Info: HVI_Component_Hemja1.pdf  used on input line 753.
 (pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
 
-Overfull \hbox (50.19434pt too wide) in paragraph at lines 751--754
+Overfull \hbox (50.19434pt too wide) in paragraph at lines 753--756
 [][]
  []
 
 [40 <./HVI_Component_Chainpur1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 765--774
+Underfull \hbox (badness 10000) in paragraph at lines 767--776
 [][]
  []
 
 [41 <./HVI_Component_Hemja1.pdf>]
-<HVI_Component_Kunjo1.pdf, id=200, 794.97pt x 614.295pt>
+<HVI_Component_Kunjo1.pdf, id=203, 794.97pt x 614.295pt>
 File: HVI_Component_Kunjo1.pdf Graphic file (type pdf)
 <use HVI_Component_Kunjo1.pdf>
-Package pdftex.def Info: HVI_Component_Kunjo1.pdf  used on input line 780.
+Package pdftex.def Info: HVI_Component_Kunjo1.pdf  used on input line 782.
 (pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
 
-Overfull \hbox (50.19434pt too wide) in paragraph at lines 780--783
+Overfull \hbox (50.19434pt too wide) in paragraph at lines 782--785
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--801
+Underfull \hbox (badness 10000) in paragraph at lines 796--803
 [][]
  []
 
 [42 <./HVI_Component_Kunjo1.pdf>]
-<HVI_Component_Lete1.pdf, id=216, 794.97pt x 614.295pt>
+<HVI_Component_Lete1.pdf, id=219, 794.97pt x 614.295pt>
 File: HVI_Component_Lete1.pdf Graphic file (type pdf)
 <use HVI_Component_Lete1.pdf>
-Package pdftex.def Info: HVI_Component_Lete1.pdf  used on input line 807.
+Package pdftex.def Info: HVI_Component_Lete1.pdf  used on input line 809.
 (pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
 
-Overfull \hbox (50.19434pt too wide) in paragraph at lines 807--809
+Overfull \hbox (50.19434pt too wide) in paragraph at lines 809--811
 [][] 
  []
 
 [43 <./HVI_Component_Lete1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 819--820
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
 
  []
 
-<Sankey.png, id=231, 761.84625pt x 415.5525pt>
+<Sankey.png, id=234, 761.84625pt x 415.5525pt>
 File: Sankey.png Graphic file (type png)
 <use Sankey.png>
-Package pdftex.def Info: Sankey.png  used on input line 822.
+Package pdftex.def Info: Sankey.png  used on input line 824.
 (pdftex.def)             Requested size: 457.11128pt x 249.33342pt.
 
-Overfull \hbox (30.31993pt too wide) in paragraph at lines 822--824
+Overfull \hbox (30.31993pt too wide) in paragraph at lines 824--826
 [][] 
  []
 
 [44 <./Sankey.png>] [45] [46] [47
 
 ] [48] [49] [50] [51] [52] [53] [54] [55]
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1038
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1040
 
  []
 
 [56
 
 ] [57]
-Overfull \hbox (0.31671pt too wide) in paragraph at lines 1068--1069
+Overfull \hbox (0.31671pt too wide) in paragraph at lines 1070--1071
 \OT1/cmr/m/n/12 over, shocks ex-ac-er-bate pre-existing vul-ner-a-bil-i-ties, d
 is-pro-por-tion-ately af-fect-ing poor
  []
@@ -919,15 +984,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2020--2031
 ) [67] [68
 
 ]
-Overfull \hbox (65.4805pt too wide) in paragraph at lines 1108--1136
+Overfull \hbox (65.4805pt too wide) in paragraph at lines 1110--1138
 [][]
  []
 
 
-LaTeX Warning: Float too large for page by 65.94655pt on input line 1136.
+LaTeX Warning: Float too large for page by 65.94655pt on input line 1138.
 
 [69]
-Overfull \hbox (22.78433pt too wide) in paragraph at lines 1145--1158
+Overfull \hbox (22.78433pt too wide) in paragraph at lines 1147--1160
 [][] 
  []
 
@@ -936,23 +1001,23 @@ Overfull \hbox (22.78433pt too wide) in paragraph at lines 1145--1158
 
 
 ]
-<HVI_Component_Village_Panel.pdf, id=319, 794.97pt x 614.295pt>
+<HVI_Component_Village_Panel.pdf, id=322, 794.97pt x 614.295pt>
 File: HVI_Component_Village_Panel.pdf Graphic file (type pdf)
 <use HVI_Component_Village_Panel.pdf>
 Package pdftex.def Info: HVI_Component_Village_Panel.pdf  used on input line 11
-65.
+67.
 (pdftex.def)             Requested size: 635.97687pt x 491.43666pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [71 <./HVI_Component_Village_Panel.pdf>]
-Overfull \hbox (21.34781pt too wide) in paragraph at lines 1178--1216
+Overfull \hbox (21.34781pt too wide) in paragraph at lines 1180--1218
 [][]
  []
 
 
-Overfull \hbox (21.33868pt too wide) in paragraph at lines 1221--1261
+Overfull \hbox (21.33868pt too wide) in paragraph at lines 1223--1263
 [][]
  []
 
@@ -961,39 +1026,39 @@ Overfull \hbox (21.33868pt too wide) in paragraph at lines 1221--1261
 
 
 ]
-Overfull \hbox (21.34776pt too wide) in paragraph at lines 1267--1303
+Overfull \hbox (21.34776pt too wide) in paragraph at lines 1269--1305
 [][]
  []
 
 [73]
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1314
+Underfull \hbox (badness 10000) in paragraph at lines 1313--1316
 
  []
 
 
-Overfull \hbox (3.62248pt too wide) in paragraph at lines 1318--1321
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 1320--1323
 []\OT1/cmr/m/n/12 data: HVI $\OMS/cmsy/m/n/12 ^^X$ \OT1/cmr/m/n/12 En-vi-ron-me
 n-tal De-pen-dency + Debt + De-pen-dency ra-tio + shock+... 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1321
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1323
 
  []
 
 
-Overfull \hbox (3.62248pt too wide) in paragraph at lines 1324--1327
+Overfull \hbox (3.62248pt too wide) in paragraph at lines 1326--1329
 []\OT1/cmr/m/n/12 data: HVI $\OMS/cmsy/m/n/12 ^^X$ \OT1/cmr/m/n/12 En-vi-ron-me
 n-tal De-pen-dency + Debt + De-pen-dency ra-tio + shock+... 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1327
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1328--1332
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1334
 
  []
 
@@ -1001,35 +1066,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 1328--1332
 
 ] (Thesis_final.aux)
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8195 strings out of 475385
- 141613 string characters out of 2777379
+ 8232 strings out of 475385
+ 142155 string characters out of 2777379
  638038 words of memory out of 3000000
- 29426 multiletter control sequences out of 15000+600000
- 483140 words of font info for 79 fonts, out of 8000000 for 9000
+ 29458 multiletter control sequences out of 15000+600000
+ 486038 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,18n,77p,1313b,457s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/DELL/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/DELL/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/DELL/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/DELL/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
-s/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
-C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
-10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmti12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmti8.pfb>
-Output written on Thesis_final.pdf (75 pages, 2252284 bytes).
+ 72i,18n,77p,1312b,457s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\DELL\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0
+700.pk><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/DELL/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/DELL/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/DELL/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
+DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
+Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on Thesis_final.pdf (75 pages, 2279020 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
+ 417 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
