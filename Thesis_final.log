@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.13)  2 JUN 2024 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.13)  2 JUN 2024 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -499,6 +499,17 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
+LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
@@ -561,7 +572,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--256
 [16
 
 ]
-<Conceptual framework for Household Vulnerability Index1.png, id=58, 548.54938p
+<Conceptual framework for Household Vulnerability Index1.png, id=59, 548.54938p
 t x 273.52188pt>
 File: Conceptual framework for Household Vulnerability Index1.png Graphic file 
 (type png)
@@ -600,7 +611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--296
  []
 
 [17]
-<Objective 2.png, id=63, 494.84875pt x 272.51813pt>
+<Objective 2.png, id=64, 494.84875pt x 272.51813pt>
 File: Objective 2.png Graphic file (type png)
 <use Objective 2.png>
 Package pdftex.def Info: Objective 2.png  used on input line 304.
@@ -644,7 +655,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--316
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./Conceptual framework for Household Vulnerability Index1.png>]
-<Study site.png, id=69, 1445.4pt x 813.0375pt>
+<Study site.png, id=70, 1445.4pt x 813.0375pt>
 File: Study site.png Graphic file (type png)
 <use Study site.png>
 Package pdftex.def Info: Study site.png  used on input line 331.
@@ -660,18 +671,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--334
  []
 
 [19 <./Objective 2.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 364
-.
-
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 364
-.
-
-(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 Overfull \hbox (42.68893pt too wide) in paragraph at lines 350--366
 [][] 
  []
@@ -1006,11 +1005,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8179 strings out of 475385
- 141413 string characters out of 2777379
+ 8195 strings out of 475385
+ 141613 string characters out of 2777379
  638038 words of memory out of 3000000
- 29412 multiletter control sequences out of 15000+600000
- 479886 words of font info for 65 fonts, out of 8000000 for 9000
+ 29426 multiletter control sequences out of 15000+600000
+ 483140 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,18n,77p,1313b,457s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
@@ -1028,7 +1027,7 @@ C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti
 10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmti12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti8.pfb>
-Output written on Thesis_final.pdf (75 pages, 2251445 bytes).
+Output written on Thesis_final.pdf (75 pages, 2252284 bytes).
 PDF statistics:
  401 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
