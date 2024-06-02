@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.13)  2 JUN 2024 13:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.2.13)  2 JUN 2024 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,10 +897,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--249
 [][]
  []
 
-<HVI_Component_Chainpur1.pdf, id=170, 614.295pt x 794.97pt>
-File: HVI_Component_Chainpur1.pdf Graphic file (type pdf)
-<use HVI_Component_Chainpur1.pdf>
-Package pdftex.def Info: HVI_Component_Chainpur1.pdf  used on input line 257.
+<Graphs and figures/HVI_Component_Chainpur_line.pdf, id=170, 614.295pt x 794.97
+pt>
+File: Graphs and figures/HVI_Component_Chainpur_line.pdf Graphic file (type pdf
+)
+<use Graphs and figures/HVI_Component_Chainpur_line.pdf>
+Package pdftex.def Info: Graphs and figures/HVI_Component_Chainpur_line.pdf  us
+ed on input line 257.
 (pdftex.def)             Requested size: 430.00356pt x 556.4752pt.
 
 Overfull \hbox (3.2122pt too wide) in paragraph at lines 257--260
@@ -912,26 +915,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--280
 [][]
  []
 
-<HVI_Component_Hemja1.pdf, id=174, 794.97pt x 614.295pt>
-File: HVI_Component_Hemja1.pdf Graphic file (type pdf)
-<use HVI_Component_Hemja1.pdf>
-Package pdftex.def Info: HVI_Component_Hemja1.pdf  used on input line 287.
+<Graphs and figures/HVI_Component_Hemja_line.pdf, id=174, 794.97pt x 614.295pt>
+
+File: Graphs and figures/HVI_Component_Hemja_line.pdf Graphic file (type pdf)
+<use Graphs and figures/HVI_Component_Hemja_line.pdf>
+Package pdftex.def Info: Graphs and figures/HVI_Component_Hemja_line.pdf  used 
+on input line 287.
 (pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
 
 Overfull \hbox (50.19434pt too wide) in paragraph at lines 287--290
 [][]
  []
 
-[40 <./HVI_Component_Chainpur1.pdf>]
+[40 <./Graphs and figures/HVI_Component_Chainpur_line.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 301--310
 [][]
  []
 
-[41 <./HVI_Component_Hemja1.pdf>]
-<HVI_Component_Kunjo1.pdf, id=203, 794.97pt x 614.295pt>
-File: HVI_Component_Kunjo1.pdf Graphic file (type pdf)
-<use HVI_Component_Kunjo1.pdf>
-Package pdftex.def Info: HVI_Component_Kunjo1.pdf  used on input line 316.
+[41 <./Graphs and figures/HVI_Component_Hemja_line.pdf>]
+<Graphs and figures/HVI_Component_Kunjo_line.pdf, id=203, 794.97pt x 614.295pt>
+
+File: Graphs and figures/HVI_Component_Kunjo_line.pdf Graphic file (type pdf)
+<use Graphs and figures/HVI_Component_Kunjo_line.pdf>
+Package pdftex.def Info: Graphs and figures/HVI_Component_Kunjo_line.pdf  used 
+on input line 316.
 (pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
 
 Overfull \hbox (50.19434pt too wide) in paragraph at lines 316--319
@@ -943,36 +950,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--337
 [][]
  []
 
-[42 <./HVI_Component_Kunjo1.pdf>]
-<HVI_Component_Lete1.pdf, id=219, 794.97pt x 614.295pt>
-File: HVI_Component_Lete1.pdf Graphic file (type pdf)
-<use HVI_Component_Lete1.pdf>
-Package pdftex.def Info: HVI_Component_Lete1.pdf  used on input line 343.
+[42 <./Graphs and figures/HVI_Component_Kunjo_line.pdf>]
+<Graphs and figures/HVI_Component_Lete_line.pdf, id=219, 794.97pt x 614.295pt>
+File: Graphs and figures/HVI_Component_Lete_line.pdf Graphic file (type pdf)
+<use Graphs and figures/HVI_Component_Lete_line.pdf>
+Package pdftex.def Info: Graphs and figures/HVI_Component_Lete_line.pdf  used o
+n input line 343.
 (pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
 
 Overfull \hbox (50.19434pt too wide) in paragraph at lines 343--345
 [][] 
  []
 
-[43 <./HVI_Component_Lete1.pdf>]
+[43 <./Graphs and figures/HVI_Component_Lete_line.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-<Sankey.png, id=234, 761.84625pt x 415.5525pt>
-File: Sankey.png Graphic file (type png)
-<use Sankey.png>
-Package pdftex.def Info: Sankey.png  used on input line 358.
+<Graphs and figures/Sankey.png, id=234, 761.84625pt x 415.5525pt>
+File: Graphs and figures/Sankey.png Graphic file (type png)
+<use Graphs and figures/Sankey.png>
+Package pdftex.def Info: Graphs and figures/Sankey.png  used on input line 358.
+
 (pdftex.def)             Requested size: 457.11128pt x 249.33342pt.
 
 Overfull \hbox (30.31993pt too wide) in paragraph at lines 358--360
 [][] 
  []
 
-[44 <./Sankey.png>] [45] [46] [47
+[44 <./Graphs and figures/Sankey.png>] [45] [46] [47
 
-] [48] [49] [50] [51] [52] [53] [54])
-(Main Matter/CHAPTER V.tex [55]
+] [48] [49] [50] [51]
+[52] [53] [54]) (Main Matter/CHAPTER V.tex [55]
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
@@ -1025,17 +1034,19 @@ Overfull \hbox (22.78433pt too wide) in paragraph at lines 48--61
 
 
 ]
-<HVI_Component_Village_Panel.pdf, id=322, 794.97pt x 614.295pt>
-File: HVI_Component_Village_Panel.pdf Graphic file (type pdf)
-<use HVI_Component_Village_Panel.pdf>
-Package pdftex.def Info: HVI_Component_Village_Panel.pdf  used on input line 68
-.
+<Graphs and figures/HVI_Component_Village_Panel.pdf, id=322, 794.97pt x 614.295
+pt>
+File: Graphs and figures/HVI_Component_Village_Panel.pdf Graphic file (type pdf
+)
+<use Graphs and figures/HVI_Component_Village_Panel.pdf>
+Package pdftex.def Info: Graphs and figures/HVI_Component_Village_Panel.pdf  us
+ed on input line 68.
 (pdftex.def)             Requested size: 635.97687pt x 491.43666pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[71 <./HVI_Component_Village_Panel.pdf>]
+[71 <./Graphs and figures/HVI_Component_Village_Panel.pdf>]
 Overfull \hbox (21.34781pt too wide) in paragraph at lines 81--119
 [][]
  []
@@ -1106,7 +1117,7 @@ LaTeX Warning: There were multiply-defined labels.
 ### bottom level 
 Here is how much of TeX's memory you used:
  8276 strings out of 475385
- 144220 string characters out of 2777379
+ 145016 string characters out of 2777379
  637984 words of memory out of 3000000
  29476 multiletter control sequences out of 15000+600000
  486038 words of font info for 92 fonts, out of 8000000 for 9000
@@ -1130,7 +1141,7 @@ e1/public/amsfonts/cm/cmsy9.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/DELL/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/DELL/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on main.pdf (75 pages, 2278699 bytes).
+Output written on main.pdf (75 pages, 2278840 bytes).
 PDF statistics:
  417 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
