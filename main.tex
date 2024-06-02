@@ -1,0 +1,66 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{lineno}
+\usepackage{apacite}
+\usepackage{natbib}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{float}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{siunitx}
+\usepackage{dcolumn}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{tocloft}
+\usepackage{sectsty}
+\usepackage{apacite}
+\usepackage{makecell}
+\geometry{a4paper, left=3cm, right=3cm, top=2.5cm, bottom=2.5cm}
+\graphicspath{{figures/}}
+\captionsetup[figure]{skip=4pt}
+\captionsetup[table]{skip=4pt}
+\newcolumntype{Y}{S[table-format=5.2(5)]}
+% Remove table numbers from the list of tables
+\makeatletter
+\renewcommand{\cfttabpresnum}{\begin{lrbox}{\@tempboxa}}
+	\renewcommand{\cfttabaftersnum}{\end{lrbox}}
+\makeatother
+% Remove table numbers from the list of tables
+\makeatletter
+\renewcommand{\cftfigpresnum}{\begin{lrbox}{\@tempboxa}} % Remove figure numbers from the list of figures
+	\renewcommand{\cftfigaftersnum}{\end{lrbox}}
+\makeatother
+\sectionfont{\small}
+\subsectionfont{\small}
+\subsubsectionfont{\small}
+\graphicspath{Graphs and figures/}
+\begin{document}
+	
+\input{Front Matter/ABSTRACT}	
+\input{Main Matter/CHAPTER I}
+\input{Main Matter/CHAPTER II}
+\input{Main Matter/CHAPTER III}
+\input{Main Matter/CHAPTER IV}
+\input{Main Matter/CHAPTER V}
+\clearpage
+
+
+\bibliographystyle{apacite}
+\setlength{\bibsep}{0pt}
+\setlength{\bibhang}{4em}
+\renewcommand{\bibname}{\centering\large\MakeUppercase{References}}
+\bibliography{bibliography}
+\renewcommand{\thepage}{\arabic{page}}
+\clearpage
+
+\input{Main Matter/Appendices}
+\end{document}
