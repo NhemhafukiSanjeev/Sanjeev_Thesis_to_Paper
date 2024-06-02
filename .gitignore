@@ -8,3 +8,8 @@
 *.tcp
 *.toc
 *.lof
+.Rproj.user
+*.bcf
+*.lot
+*.run.xml
+*.synctex.gz
