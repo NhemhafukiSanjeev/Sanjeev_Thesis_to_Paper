@@ -1,7 +1,18 @@
-
+\documentclass{article}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{dcolumn} % For decimal alignment
+\usepackage{pdflscape} % For landscape environment
+\usepackage[a4paper, margin=1in, top=0.5in]{geometry} % Adjust top margin for the entire document
+% Define a new column type for decimal alignment
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\begin{document}
 % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
-% Date and time: Tue, Jun 04, 2024 - 12:37:02 PM
+% Date and time: Tue, Jun 04, 2024 - 1:23:15 PM
 % Requires LaTeX packages: dcolumn 
+\begin{landscape}
 \begin{table}[!htbp] \centering 
   \caption{Random Effects Regression} 
   \label{} 
@@ -13,25 +24,48 @@
 \\[-1.8ex] & \multicolumn{7}{c}{hvi} \\ 
 \\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)}\\ 
 \hline \\[-1.8ex] 
- ln\_env\_tot\_income\_ratio & 0.392 & -1.877 & -1.877 & -1.877 & -1.877 & -1.877 & -1.877 \\ 
-  & (0.493) &  &  &  &  &  &  \\ 
+ ln\_env\_tot\_income\_ratio & 0.116^{***} & 0.116^{***} & 0.114^{***} & 0.113^{***} & 0.112^{***} & 0.115^{***} & 0.113^{***} \\ 
+  & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) \\ 
   & & & & & & & \\ 
- ln\_debt &  & 0.300 & 0.300 & 0.300 & 0.300 & 0.300 & 0.300 \\ 
-  &  &  &  &  &  &  &  \\ 
+ ln\_debt &  & 0.0001 & 0.0002 & 0.0001 & 0.0001 & -0.0001 & -0.0001 \\ 
+  &  & (0.0004) & (0.0004) & (0.0004) & (0.0004) & (0.0004) & (0.0004) \\ 
   & & & & & & & \\ 
- Constant & 0.363 & 0.410 & 0.410 & 0.410 & 0.410 & 0.410 & 0.410 \\ 
-  & (0.471) &  &  &  &  &  &  \\ 
+ dependency\_ratio &  &  & 0.009^{***} & 0.009^{***} & 0.009^{***} & 0.010^{***} & 0.009^{***} \\ 
+  &  &  & (0.003) & (0.003) & (0.003) & (0.003) & (0.003) \\ 
+  & & & & & & & \\ 
+ shocks\_no &  &  &  & 0.004^{**} & 0.003 & -0.0001 & -0.00005 \\ 
+  &  &  &  & (0.001) & (0.002) & (0.002) & (0.002) \\ 
+  & & & & & & & \\ 
+ factor(year)2009 &  &  &  &  & -0.012^{**} & -0.015^{***} & -0.015^{***} \\ 
+  &  &  &  &  & (0.005) & (0.005) & (0.005) \\ 
+  & & & & & & & \\ 
+ factor(year)2012 &  &  &  &  & -0.007 & -0.011^{**} & -0.011^{**} \\ 
+  &  &  &  &  & (0.005) & (0.005) & (0.005) \\ 
+  & & & & & & & \\ 
+ factor(district)Kaski &  &  &  &  &  & -0.059^{***} & -0.059^{***} \\ 
+  &  &  &  &  &  & (0.005) & (0.005) \\ 
+  & & & & & & & \\ 
+ factor(district)Mustang &  &  &  &  &  & -0.022^{***} & -0.026^{***} \\ 
+  &  &  &  &  &  & (0.004) & (0.005) \\ 
+  & & & & & & & \\ 
+ factor(vdc)Kunjo &  &  &  &  &  &  & 0.009 \\ 
+  &  &  &  &  &  &  & (0.006) \\ 
+  & & & & & & & \\ 
+ Constant & 0.626^{***} & 0.625^{***} & 0.620^{***} & 0.618^{***} & 0.627^{***} & 0.650^{***} & 0.653^{***} \\ 
+  & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) \\ 
   & & & & & & & \\ 
 \hline \\[-1.8ex] 
 Year-fixed effects & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} \\ 
 District-fixed effects & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} \\ 
 VDC-fixed effects & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} \\ 
 \hline \\[-1.8ex] 
-Observations & \multicolumn{1}{c}{3} & \multicolumn{1}{c}{3} & \multicolumn{1}{c}{3} & \multicolumn{1}{c}{3} & \multicolumn{1}{c}{3} & \multicolumn{1}{c}{3} & \multicolumn{1}{c}{3} \\ 
-R$^{2}$ & \multicolumn{1}{c}{0.387} & \multicolumn{1}{c}{1.000} & \multicolumn{1}{c}{1.000} & \multicolumn{1}{c}{1.000} & \multicolumn{1}{c}{1.000} & \multicolumn{1}{c}{1.000} & \multicolumn{1}{c}{1.000} \\ 
-Adjusted R$^{2}$ & \multicolumn{1}{c}{-0.226} &  &  &  &  &  &  \\ 
+Observations & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.034} & \multicolumn{1}{c}{0.034} & \multicolumn{1}{c}{0.041} & \multicolumn{1}{c}{0.046} & \multicolumn{1}{c}{0.052} & \multicolumn{1}{c}{0.149} & \multicolumn{1}{c}{0.150} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.033} & \multicolumn{1}{c}{0.033} & \multicolumn{1}{c}{0.039} & \multicolumn{1}{c}{0.043} & \multicolumn{1}{c}{0.048} & \multicolumn{1}{c}{0.143} & \multicolumn{1}{c}{0.144} \\ 
 \hline 
 \hline \\[-1.8ex] 
 \textit{Note:}  & \multicolumn{7}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 \end{tabular} 
 \end{table} 
+\end{landscape}
+\end{document}

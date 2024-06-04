@@ -16,7 +16,7 @@ library(plm)
 library(stargazer)
 
 ##-----------------Decalre data to be a Panel-----------------------------------
-pdata<-pdata.frame(data, index=c("year", "hh_id"))
+pdata<-pdata.frame(data, index=c("year", "hh_code"))
 
 ##--------------------Setting pooled ols regression formulae--------------------
 
@@ -100,7 +100,7 @@ for (i in 0:length(adding_variables)) {
   } else {
     formula <- as.formula(paste(deparse(formula), paste(adding_variables[1:i], collapse = " + "), sep = " + "))
   }
-  models[[i + 1]] <- plm(formula, data = pdata, model = "random")
+  models[[i + 1]] <- plm(formula, data = pdata, model = "random", random.method = "walhus")
 }
 
 re.1 <- models[[1]]
@@ -128,10 +128,10 @@ re_results<- stargazer(
 
 ##--------------------Setting fixed effects regression formulae-----------------
 
-formula <- HVI ~ ln_Env_Tot_Ratio_Trsfm1
+formula <- hvi ~ ln_env_tot_income_ratio
 
-adding_variables <- c("ln_Debt",      "Depndency_ratio", "shock", 
-                      "factor(Year)", "factor(Dist)",    "factor(VDC)")
+adding_variables <- c("ln_debt",      "dependency_ratio", "shocks_no", 
+                      "factor(year)", "factor(district)",    "factor(vdc)")
 
 models <- list()
 
@@ -216,7 +216,9 @@ re_results<- stargazer(
 
 ##------------------------Test the need for time fixed effects----------------##
   time_fe<-plmtest(pols.7, test="time")
-  
+ 
+  library("xtable")
+  xtable()
   stargazer(time_fe, type = "latex", style = "default")
   time_fe <- stargazer(
     time_fe,

@@ -1,7 +1,18 @@
-
+\documentclass{article}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{dcolumn} % For decimal alignment
+\usepackage{pdflscape} % For landscape environment
+\usepackage[a4paper, margin=1in, top=0.5in]{geometry} % Adjust top margin for the entire document
+% Define a new column type for decimal alignment
+\newcolumntype{d}[1]{D{.}{.}{#1}}
 % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
-% Date and time: Sun, Jun 02, 2024 - 7:53:12 PM
+% Date and time: Tue, Jun 04, 2024 - 1:23:46 PM
 % Requires LaTeX packages: dcolumn 
+\begin{document}
+\begin{landscape}
 \begin{table}[!htbp] \centering 
   \caption{Fixed Effects Regression} 
   \label{} 
@@ -10,20 +21,29 @@
 \hline \\[-1.8ex] 
  & \multicolumn{7}{c}{\textit{Dependent variable:}} \\ 
 \cline{2-8} 
-\\[-1.8ex] & \multicolumn{7}{c}{HVI} \\ 
+\\[-1.8ex] & \multicolumn{7}{c}{hvi} \\ 
 \\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} & \multicolumn{1}{c}{(6)} & \multicolumn{1}{c}{(7)}\\ 
 \hline \\[-1.8ex] 
- ln\_Env\_Tot\_Ratio\_Trsfm1 & -0.003 & -0.003 & -0.001 & -0.001 & -0.004 & -0.004 & -0.004 \\ 
-  & (0.013) & (0.013) & (0.013) & (0.013) & (0.013) & (0.013) & (0.013) \\ 
+ ln\_env\_tot\_income\_ratio & 0.115^{***} & 0.115^{***} & 0.113^{***} & 0.112^{***} & 0.112^{***} & 0.115^{***} & 0.113^{***} \\ 
+  & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) & (0.017) \\ 
   & & & & & & & \\ 
- ln\_Debt &  & -0.0004 & -0.0003 & -0.0003 & -0.0003 & -0.0003 & -0.0003 \\ 
+ ln\_debt &  & 0.0001 & 0.0002 & 0.0001 & 0.0001 & -0.0001 & -0.0001 \\ 
   &  & (0.0004) & (0.0004) & (0.0004) & (0.0004) & (0.0004) & (0.0004) \\ 
   & & & & & & & \\ 
- Depndency\_ratio &  &  & 0.015^{***} & 0.015^{***} & 0.014^{***} & 0.014^{***} & 0.014^{***} \\ 
+ dependency\_ratio &  &  & 0.009^{***} & 0.009^{***} & 0.009^{***} & 0.010^{***} & 0.009^{***} \\ 
   &  &  & (0.003) & (0.003) & (0.003) & (0.003) & (0.003) \\ 
   & & & & & & & \\ 
- shock &  &  &  & 0.002^{*} & 0.001 & 0.001 & 0.001 \\ 
-  &  &  &  & (0.001) & (0.001) & (0.001) & (0.001) \\ 
+ shocks\_no &  &  &  & 0.003 & 0.003 & -0.0001 & -0.00005 \\ 
+  &  &  &  & (0.002) & (0.002) & (0.002) & (0.002) \\ 
+  & & & & & & & \\ 
+ factor(district)Kaski &  &  &  &  &  & -0.059^{***} & -0.059^{***} \\ 
+  &  &  &  &  &  & (0.005) & (0.005) \\ 
+  & & & & & & & \\ 
+ factor(district)Mustang &  &  &  &  &  & -0.022^{***} & -0.026^{***} \\ 
+  &  &  &  &  &  & (0.004) & (0.005) \\ 
+  & & & & & & & \\ 
+ factor(vdc)Kunjo &  &  &  &  &  &  & 0.009 \\ 
+  &  &  &  &  &  &  & (0.006) \\ 
   & & & & & & & \\ 
 \hline \\[-1.8ex] 
 Year-fixed effects & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} \\ 
@@ -31,10 +51,12 @@ District-fixed effects & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \mult
 VDC-fixed effects & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{No} \\ 
 \hline \\[-1.8ex] 
 Observations & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} \\ 
-R$^{2}$ & \multicolumn{1}{c}{0.00005} & \multicolumn{1}{c}{0.002} & \multicolumn{1}{c}{0.034} & \multicolumn{1}{c}{0.037} & \multicolumn{1}{c}{0.042} & \multicolumn{1}{c}{0.042} & \multicolumn{1}{c}{0.042} \\ 
-Adjusted R$^{2}$ & \multicolumn{1}{c}{-0.501} & \multicolumn{1}{c}{-0.500} & \multicolumn{1}{c}{-0.453} & \multicolumn{1}{c}{-0.450} & \multicolumn{1}{c}{-0.446} & \multicolumn{1}{c}{-0.446} & \multicolumn{1}{c}{-0.446} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.034} & \multicolumn{1}{c}{0.034} & \multicolumn{1}{c}{0.040} & \multicolumn{1}{c}{0.042} & \multicolumn{1}{c}{0.042} & \multicolumn{1}{c}{0.140} & \multicolumn{1}{c}{0.141} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.032} & \multicolumn{1}{c}{0.031} & \multicolumn{1}{c}{0.036} & \multicolumn{1}{c}{0.038} & \multicolumn{1}{c}{0.038} & \multicolumn{1}{c}{0.134} & \multicolumn{1}{c}{0.135} \\ 
 \hline 
 \hline \\[-1.8ex] 
 \textit{Note:}  & \multicolumn{7}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 \end{tabular} 
 \end{table} 
+\end{landscape}
+\end{document}

@@ -48,22 +48,22 @@ renamed_data<-no_missing_data |>
          debt, env_income, crop_income, livestock_income, remit_income, support_income, 
          other_income, biz_income, wage_income, total_income, everything()) |> 
   select(-c(contains("High_")   | contains("low_") | contains("other_imp")| 
-            contains("livstk")  | contains("hives")| contains("sqm")| 
-            contains("inc_aeu_")| contains("aeu_")))
+              contains("livstk")  | contains("hives")| contains("sqm")| 
+              contains("inc_aeu_")| contains("aeu_")))
 saveRDS(renamed_data, "../dataset/intermediate/renamed_data.rds")
 ##---------------Counting number of shocks and livelihoods----------------------
 ##------------------------------------Shocks------------------------------------
 count_data<-renamed_data |> 
   mutate(shock_less_severe       = Serious_crop_fail_ + Serious_illness_+ Death_adult_
-                                   + land_loss_ + Livestock_loss_ + Oth_asset_loss_ 
-                                   + wage_employ_loss_ + Costly_social_events_,
+         + land_loss_ + Livestock_loss_ + Oth_asset_loss_ 
+         + wage_employ_loss_ + Costly_social_events_,
          shock_more_severe       = Serious_crop_fail_severe_ + Serious_illness_severe_+
-                                   Death_adult_severe_ + Land_loss_severe_ + 
-                                   Livestock_loss_severe_ +  Oth_asset_loss_severe_ + 
-                                   wage_employ_loss_severe_ + Costly_social_events_severe_,
+           Death_adult_severe_ + Land_loss_severe_ + 
+           Livestock_loss_severe_ +  Oth_asset_loss_severe_ + 
+           wage_employ_loss_severe_ + Costly_social_events_severe_,
          shocks_no               = shock_less_severe + shock_more_severe)  |> 
   select(-c(contains("Serious") | contains("Death_") |
-            contains("loss_")   | contains("_social")|contains("_severe")))
+              contains("loss_")   | contains("_social")|contains("_severe")))
 saveRDS(count_data, "../dataset/intermediate/shock_count_data.rds")
 ##------------------------------------Livelihoods-------------------------------
 
@@ -84,14 +84,16 @@ panel_identifier<-grouped_data |>
   group_by(hh_code) |> 
   summarise(count_yr             = n_distinct(year)) |> 
   mutate(all_yr_present          = case_when(count_yr == 3 ~ T,
-                                                     TRUE  ~ F))
+                                             TRUE  ~ F))
 ##---------------joining panel identifier data and grouped data-----------------
 panel_id_data<-left_join(livelihood_data, panel_identifier, by = "hh_code")
 
 ##----------removing the non-panel data and keep full panel data only-----------
 full_panel<-panel_id_data |> 
   filter(all_yr_present == TRUE) |> 
-  select(-c(contains("yr") |contains("Head_"), crop_income:wage_income)) 
+  select(-c(contains("yr") |contains("Head_"), crop_income:wage_income)) |> 
+  mutate(hh_id = paste(hh_code, year, sep = "-")) |> 
+  select(hh_id, everything())
 
 full_panel<-full_panel[order(full_panel$hh_code),]
 saveRDS(full_panel, "../dataset/processed/full_panel.rds")
@@ -99,25 +101,25 @@ saveRDS(full_panel, "../dataset/processed/full_panel.rds")
 ##-------------------------Applying Mini-max/Maxi-min scaling-------------------
 ##------------------------Setting the formulae for the scaling------------------
 ##------------------------------Mini-max scaling--------------------------------
-  min_max_scale <- function(x) {
-    (x - min(x)) / (max(x) - min(x))
-  }
+min_max_scale <- function(x) {
+  (x - min(x)) / (max(x) - min(x))
+}
 
 ##-----------------------------Maxi-min scaling---------------------------------
-  max_min_scale <- function(x) {
-    (max(x) - x) / (max(x) - min(x))
-  }
+max_min_scale <- function(x) {
+  (max(x) - x) / (max(x) - min(x))
+}
 
 ## Specifying the mini-max and maxi-min variables based on the upward and downward
 ## influence of the variables on the Household Vulnerability
 ##-----------------------------Mini-max variables-------------------------------
-  min_max_vars <- c()
+min_max_vars <- c()
 
 ##---------------------------------Maxi-min variables---------------------------
-  max_min_vars <- c("hh_age",     "hh_edu",      "max_hh_edu", 
-                    "implements", "livestock",   "land", 
-                    "hh_caste",   "bank_saving", "jewellery", 
-                    "livelihood_no")
+max_min_vars <- c("hh_age",     "hh_edu",      "max_hh_edu", 
+                  "implements", "livestock",   "land", 
+                  "hh_caste",   "bank_saving", "jewellery", 
+                  "livelihood_no")
 
 ########## Creating Dataframe after scaling ###########
 prep_data <- full_panel %>% mutate(across(all_of(min_max_vars), min_max_scale), 
@@ -139,92 +141,12 @@ hvi_data <- prep_data %>%
                                                                   TRUE ~ dependency_ratio),
          ln_debt                 = log(debt),
          ln_debt                 = case_when(ln_debt == "-Inf" ~ 0,
-                                                          TRUE ~ ln_debt))
+                                                          TRUE ~ ln_debt),
+         hh_id                   = paste(hh_code, year, sep = "-"))
 join_data<-hvi_data |> 
-  select(hh_code, hvi, env_tot_income_ratio, ln_env_tot_income_ratio, dependency_ratio, ln_debt)
+  select(hh_id, hh_code, hvi, env_tot_income_ratio, ln_env_tot_income_ratio, dependency_ratio, ln_debt)
 
 
-final_data<-left_join(full_panel, join_data, by = "hh_code")
+final_data<-left_join(full_panel, join_data, by = c("hh_id", "hh_code"))
 saveRDS(final_data, "../dataset/processed/final_data.rds")
 ##============================================================================##
-
-##----------------mean and standard deviation by year, district---------------##
-##------------------Variables used in construction of hvi---------------------##
-  
-  mean_sd_1 <- final_data %>%
-  group_by(year, district) %>%
-  summarise(
-            mean_hh_age          = mean(hh_age),
-            sd_hh_age            = sd(hh_age),
-            mean_hh_edu          = mean(hh_edu),
-            sd_hh_edu            = sd(hh_edu),
-            mean_max_hh_edu      = mean(max_hh_edu),  # Fix: Add closing parenthesis here
-            sd_max_hh_edu        = sd(max_hh_edu),
-            mean_hh_caste        = mean(hh_caste),
-            sd_hh_caste          = sd(hh_caste),
-            mean_male_adult_no   = mean(male_adult_no),
-            sd_male_adult_no     = sd(male_adult_no),
-            mean_female_adult_no = mean(female_adult_no),
-            sd_female_adult_no   = sd(female_adult_no),
-            mean_child_no        = mean(child_no),
-            sd_child_no          = sd(child_no),
-            mean_elders_no       = mean(elders_no),
-            sd_elders_no         = sd(elders_no),
-            mean_implements      = mean(implements),
-            sd_implements        = sd(implements),
-            mean_livestock       = mean(livestock),
-            sd_livestock         = sd(livestock),
-            mean_land            = mean(land),
-            sd_land              = sd(land),
-            mean_total_income    = mean(total_income),
-            sd_total_income      = sd(total_income),
-            mean_bank_saving     = mean(bank_saving),
-            sd_bank_saving       = sd(bank_saving),
-            mean_jewellery       = mean(jewellery),
-            sd_jewellery         = sd(jewellery),
-            mean_livelihood_no   = mean(livelihood_no),
-            sd_livelihood_no     = sd(livelihood_no),
-            mean_hvi             = mean(hvi),
-            sd_hvi               = sd(hvi)) %>%
-  mutate(   mean_sd_hh_age          = paste(mean_hh_age, " (", sd_hh_age, ")"),
-            mean_sd_hh_edu          = paste(mean_hh_edu, " (", sd_hh_edu, ")"),
-            mean_sd_max_hh_edu      = paste(mean_max_hh_edu, " (", sd_max_hh_edu, ")"),
-            mean_sd_hh_caste        = paste(mean_hh_caste, " (", sd_hh_caste, ")"),
-            mean_sd_male_adult_no   = paste(mean_male_adult_no, " (", sd_male_adult_no, ")"),
-            mean_sd_female_adult_no = paste(mean_female_adult_no, " (", sd_female_adult_no, ")"),
-            mean_sd_child_no        = paste(mean_child_no, " (", sd_child_no, ")"),
-            mean_sd_elders_no       = paste(mean_elders_no, " (", sd_elders_no, ")"),    
-            mean_sd_implements      = paste(mean_implements, " (", sd_implements, ")"),
-            mean_sd_livestock       = paste(mean_livestock, " (", sd_livestock, ")"),
-            mean_sd_land            = paste(mean_land, " (", sd_land, ")"),
-            mean_sd_total_income    = paste(mean_total_income, " (", sd_total_income, ")"),
-            mean_sd_bank_saving     = paste(mean_bank_saving, " (", sd_bank_saving, ")"),
-            mean_sd_jewellery       = paste(mean_jewellery, " (", sd_jewellery, ")"),
-            mean_sd_livelihood_no   = paste(mean_livelihood_no, " (", sd_livelihood_no, ")"),
-            mean_sd_hvi             = paste(mean_hvi, " (", sd_hvi, ")"))
-
-mean_sd<-stargazer(mean_sd, title = "Mean and Standard Deviation of variables used in HVI construction", align = T, out = "../output/summary_statistics/mean_sd.tex")
-
-##============================================================================##
-
-##------------------------Environmental dependence and hvi--------------------##
-
-mean_sd_2 <- final_data %>%
-  group_by(year, district, vdc) %>%
-  summarise(
-            mean_env_dependence      = mean(env_tot_income_ratio),
-            sd_env_dependence        = sd(env_tot_income_ratio),
-            mean_dependency_ratio    = mean(dependency_ratio),
-            sd_dependency_ratio      = sd(dependency_ratio),
-            mean_debt                = mean(debt),  # Fix: Add closing parenthesis here
-            sd_debt                  = sd(debt),
-            mean_shock               = mean(shocks_no),
-            sd_shock                 = sd(shocks_no)) %>%
-  mutate(   mean_sd_env_dependence   = paste(mean_env_dependence, " (", sd_env_dependence, ")"),
-            mean_sd_dependency_ratio = paste(mean_dependency_ratio, " (", sd_dependency_ratio, ")"),
-            mean_sd_debt             = paste(mean_debt, " (", sd_debt, ")"),
-            mean_sd_shock            = paste(mean_shock, " (", sd_shock, ")"))
-
-mean_sd<-stargazer(mean_sd, title = "Mean and Standard Deviation of Environmental dependence and hvi", align = T, out = "../output/summary_statistics/mean_sd.tex")
-
-
