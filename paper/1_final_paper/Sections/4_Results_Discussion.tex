@@ -2,18 +2,15 @@
 \section{Results and discussion} \label{isect4}
 
 \subsection{Empirical Results}
+The study examines household vulnerability through regression estimates, focusing on environmental dependence, debt, dependency ratio, and shock. The results show that environmental income can be a liability for vulnerable households, while debt can reduce vulnerability. Debt and Dependency ratio is a liability factor for resilience. The study also includes shock as a control, finding that household vulnerability increases with the number of shocks experienced. Fixed effects controls have also been introduced in the regression models to account for the variation caused by the time-invariant variables such as district and VDC. The analysis employs three methods of panel data: Pooled OLS, Random Effects, and Fixed Effects. The results show a significant positive association between household vulnerability and environmental dependence.
 
-This section presents the results for the household vulnerability regression estimates. We report the marginal effects, standard errors for all the models included in the regression. We included household vulnerability index as an dependent variable which we calculated using equation 3.8. For the independent variable, we used Environmental dependence, Debt, Dependency ratio and Shock as the independent variable. While Environmental income could be an important source of smoothing consumption but could be considered a liability rather than a capital for the vulnerable households.  Our results find that household's vulnerability increases as environmental dependence increases. 
-
-Other factors influencing household vulnerability included Debt. Our results, though insignificant, confirms that debt could reduce the household vulnerability. Also, Dependency ratio was a liability factor of the household's resilience. Our regression results is similar with the findings of the prior literature. The other control we include in the model is the shock as measured by the number of shocks experienced by the households. This study finds that as the the number of shocks increases the household vulnerability increases. Fixed effects controls have also been introduced in the regression models to account for the variation caused by the time-invariant variables such as district and VDC.
-
-Table 4.12 presents the results of the Panel Data regression employed in the analysis. 3 methods of Panel data namely: Pooled OLS; Random Effects; and Fixed Effects have been employed to investigate the factors that affect household vulnerability. The first model is a simple Pooled OLS model where the dependent variable household vulnerability has been regressed by Environmental dependence. The result on the regression is that Environmental dependence increases the household vulnerability. The significance level is on 1\%. This simple regression has been the landmark of this analysis. Following the result, we extend the regression in the following models for Pooled OLS by adding control variables Debt, Dependency ratio and Shock. Further, we add Fixed effects of Year, District and VDC. The result of the step-wise regression is on the Appendix Table 2. The final result of a full specification model of the POLS regression in the Table 4.12 suggests a significantly positive association between household vulnerability and environmental dependence.
+Table \ref{tab:paneldata} presents the results of the Panel Data regression employed in the analysis. The first model is a simple Pooled OLS model where the dependent variable household vulnerability has been regressed by Environmental dependence. The result on the regression is that increase in Environmental dependence increases the household vulnerability. This simple regression has been the landmark of this analysis. Following the result, we extend the regression in the following models for Pooled OLS by adding control variables Debt, Dependency ratio and Shock. Further, we add Fixed effects of Year, District and VDC.
 
 \begin{table}[htb] 
 	\begin{center}
 		\caption{Panel Data Regression} 
 		\renewcommand{\arraystretch}{1.05}
-		\resizebox{1\textwidth}{!}{%
+		\resizebox{0.7\textwidth}{!}{%
 			\begin{tabular}{@{\extracolsep{1pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 				\\[-2ex]\hline 
 				\hline \\[-2.5ex] 
@@ -36,22 +33,22 @@ Table 4.12 presents the results of the Panel Data regression employed in the ana
 				Constant & 0.557^{***} & 0.562^{***} & 0.583^{***} &  -  \\ 
 				& (0.012) & (0.012) & (0.011) & -  \\ 
 				& & & & \\[-2.5ex] 
-				\hline \\[-3.3ex] 
-				\textit{Fixed Effects} & & & & \\ [-1.5ex]
-				Year & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} \\ [-0.9ex]
-				District & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} \\ [-0.9ex]
+				\hline \\[-3ex] 
+				\textit{Fixed Effects} & & & & \\ [-1ex]
+				Year & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} \\ [-0.7ex]
+				District & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} \\ [-0.7ex]
 				VDC & \multicolumn{1}{c}{No} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} & \multicolumn{1}{c}{Yes} \\ 
-				\hline \\[-3.3ex] 
-				\textit{Fit statistics} & & & & \\ [-1.5ex]
-				Observations & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} \\ [-0.9ex]
-				R$^{2}$ & \multicolumn{1}{c}{0.024} & \multicolumn{1}{c}{0.131} & \multicolumn{1}{c}{0.095} & \multicolumn{1}{c}{0.042} \\[-0.9ex] 
+				\hline \\[-3ex] 
+				\textit{Fit statistics} & & & & \\ [-1ex]
+				Observations & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} & \multicolumn{1}{c}{1,284} \\ [-0.7ex]
+				R$^{2}$ & \multicolumn{1}{c}{0.024} & \multicolumn{1}{c}{0.131} & \multicolumn{1}{c}{0.095} & \multicolumn{1}{c}{0.042} \\[-0.7ex] 
 				Adjusted R$^{2}$ & \multicolumn{1}{c}{0.023} & \multicolumn{1}{c}{0.125} & \multicolumn{1}{c}{0.089} & \multicolumn{1}{c}{-0.446} \\ 
 				\hline 
 				\hline \\ [-2.8ex] 	
 			\end{tabular}
 		}
-		\parbox{\linewidth}{\textit{ \ \ \ \ \ Note: Standard errors in the parenpaper:} \ \ \ \ \ {$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}} \\ \vspace{-0.35cm}
-		\parbox{\linewidth}{\textit{\ \ \ \ \ \ Env. = Environmental}}
+		\parbox{\linewidth}{\scriptsize\textit{ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Note: Standard errors in the parenthesis:} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}} \\ \vspace{-0.2cm}
+		\parbox{\linewidth}{\scriptsize\textit{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Env. = Environmental}}
 		\label{tab:paneldata} 
 	\end{center}
 \end{table}   
@@ -65,21 +62,17 @@ Referring to the results of the test, we included the time factor (Year) as well
 
 After obtaining the results from the Pooled OLS regression, we tested for the pool-ability to confirm if the cross-sectional unit in the panel has the same intercept or a different intercept. Also, whether or not it had different slopes. For this purpose, we employed Breusch and Pagan Lagrangian multiplier test \citep{breusch1980lagrange} to test the poolability of the data. It was confirmed that the panel data was not pool-able. So, Pooled OLS is not appropriate for the model. The result of the Breusch and Pagan Lagrange Multiplier test is in Appendix B3.\par 
 
-Since the BP-LM test result indicate that p-value = 0.000, we conclude that the Pooled OLS model is not an efficient estimator for our data. So, we run Random Effects (RE) model. The result of the RE regression is in the Table 4.12 which suggests that there is a positively significant relationship between the household vulnerability and environmental dependence which implies that as the environmental dependency increases the household becomes more vulnerable. The results from the Random Effects (RE) model closely resemble those from the Pooled Ordinary Least Squares (POLS) model. However, there are slight differences in the coefficients and their significance levels between the two. The step-wise regression results for the Random effects (RE) is on the Appendix Table 3. The model progression is similar to Pooled OLS model. The first model is simple Random effects model with dependent variable household vulnerability and only on independent variable environmental dependence. Then in the subsequent models, control variables Debt, Dependency ratio, Shock is added gradually. Furthermore, Fixed effects for Year, District and VDC were considered in the model in the similar fashion.\par  
+Since the BP-LM test result indicate that p-value = 0.000, we conclude that the Pooled OLS model is not an efficient estimator for our data. So, we run Random Effects (RE) model. The results from the Random Effects (RE) model closely resemble those from the Pooled Ordinary Least Squares (POLS) model. The step-wise regression results for the Random effects (RE) is on the Table \ref{tab:randomeffect}. The model progression is similar to Pooled OLS model.
 
-We also run the fixed effects (FE) regression. The result of the full specification FE model is in the Table 4.12. It suggests that there is a  negative but non-significant relationship between Environmental dependence and household vulnerability. However, for other control variables, the results are similar to those of Pooled OLS and RE. The step-wise regression for FE is in the appendix Table 4. The model progression is similar to Pooled OLS and RE model. The first model is simple Random effects model with dependent variable household vulnerability and only on independent variable environmental dependence. Then in the subsequent models, control variables Debt, Dependency ratio, Shock is added gradually. Furthermore, Fixed effects for Year, District and VDC were considered in the model in the similar fashion.\par       
+We also run the fixed effects (FE) regression. The result of the full specification FE model is in the Table \ref{tab:fixedeffect}. The model progression is similar to Pooled OLS and RE model. The first model is simple Random effects model       
 
 After the FE regression, we conduct Hausman Specification test \citep{hausman1978specification}. The test assesses whether the coefficients estimated by the two models are significantly different. The test for our model suggest that fixed effect model is preferred over random effect model. The corresponding chi-square value is 25.48 which is relatively large with 6 degrees of freedom, and the adjoint probability was much less than 0.05. The result obtained for Hausman Specification test is in the Appendix B4.\par 
-
-However, we take the inference of RE as efficient estimates. In random-effects, one of the fundamental assumptions is that the unobserved individual effects, $\mathit{\alpha_i}$, are randomly drawn from the population. In this sense, RE estimator is efficient, consistent and unbiased estimator when T is small and N is large \citep{hsiao2022analysis}. The advantage of random effects inference is that the number of
-parameters is fixed when sample size increases. It also allows the derivation of efficient
-estimators that make use of both within- and between-group variation. The impact of
-time-invariant variables can also be estimated.\par 
 
 \subsubsection{Environmental Dependence and Vulnerability (OLS)}
 
 \begin{table}[ht] 
 	\renewcommand{\arraystretch}{1.1}
+	\caption{Pooled OLS Regression}
 	\resizebox{1.05\textwidth}{!}{%
 		\begin{tabular}{@{\extracolsep{0.01pt}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
 			\\[-1.6ex]\hline 
@@ -121,20 +114,10 @@ time-invariant variables can also be estimated.\par
 		\label{tab:pooledols} 
 \end{table} 
 
-Table \ref{tab:pooledols} presents the results of the Pooled OLS Regression results. The model specification is in equation 3.9. Model 1 of the equation is a bi-variate regression with household vulnerability as an dependent variable and only Environmental dependence as an dependent variable. The result suggest that there is a significantly positive association between the household vulnerability and environmentally dependence. It suggest that as environmental dependence increases for a household, the household vulnerability increases.\par 
-
-In model 2, we introduce Debt, one of the variables controlled for in our regression model. Debt has a significantly negative effect on household vulnerability. The regression coefficient of Environmental dependence didn't change after the introduction of the control variable debt. 
-
-In the following models 3, 4 we further introduce the control variables Dependency ratio and Shock respectively. The addition of the variables in our model only slightly changed the coefficient of the Environmental dependence. Dependency ratio is shown to have positive effect on household vulnerability in both the models. In the model 4, shock also is exhibited to have a positive and significant influence on household's vulnerability. For the remaining models (5, 6, and 7), Year, District, and VDC fixed effects were introduced consecutively. Even after the Fixed effects were applied, significance and direction of our main independent variable Environmental dependence remained same as the model 1. However, the coefficient were on a declining trend as the control variables were added in the model. The shock variable lost its significant but the direction remained the same, implying that shock has a positive effect on household vulnerability.
-
-The Pooled OLS regression results indicates that that environmental dependence increases the household's vulnerability. Similarly, the increase in the Dependency ratio also increases the household vulnerability. Shock variable also has a positive effect on household vulnerability. However, debt has a negative influence on household vulnerability.  
+Table \ref{tab:pooledols} presents the results of the Pooled OLS Regression results. The Pooled OLS Regression results show a significant positive association between household vulnerability and environmentally dependent factors. As environmental dependence increases, vulnerability also increases. Debt has a negative effect on vulnerability, but the regression coefficient remains unchanged. Dependency ratio and shock have positive effects on vulnerability, while shock has a positive influence. The main independent variable, environmental dependence, remains the same as in model 1, but the coefficient declines with the addition of control variables. The shock variable has a positive effect on vulnerability.
 
 \subsubsection{Environmental Dependence and Vulnerability (RE)}
-Table \ref{tab:randomeffect} presents the Random Effects Regression results of our estimates. The model specification is same as of Pooled OLS Model. Result from Model 1 suggest that there is a significantly positive association between the household vulnerability and environmentally dependence. Here, no control variables have been included.  
-
-Controls such as: Debt; Dependency; and Shock have been included in the following models 2, 3 and 4 respectively. Debt, in the model 2 had a significantly negative effect on household's vulnerability, indicating that the debt reduces the household vulnerability. However, it lost its significance in the model 3 following the addition of dependency ratio in the model. The direction remained unchanged nonetheless. In model 4, dependency ratio and shock had a positive effect on household vulnerability.
-
-Similarly, in the models 5 , 6 and 7, random effects regression were run with Year, District and VDC fixed effects in the consecutive models. In model 5, with the Year fixed effects, Debt had a negative but insignificant effect on household vulnerability. Dependency ratio had a positive and significant effect on household vulnerability. Shock variable had a positive but insignificant effect on the dependent variable in the model. The same trend is observed across the following models. 
+Table \ref{tab:randomeffect} presents the Random Effects Regression results of our estimates. The Random Effects Regression results show a significant positive association between household vulnerability and environmentally dependent factors. Control variables such as debt, dependency, and shock were included in models 2, 3, and 4. Debt had a negative effect on vulnerability in model 2, but lost significance in model 3, and had a positive effect in model 4. In models 5, 6, and 7, debt had a negative but insignificant effect.
 
 \begin{table}[htb] 
 	\caption{Random Effects Regression} 
@@ -185,7 +168,7 @@ Similarly, in the models 5 , 6 and 7, random effects regression were run with Ye
 Importantly, our major variable of interest Environmental dependence continued to have a positive effect across all the models.  Up to model 5, Environmental dependence displayed to have a positive effect on household vulnerability at 1\% significance level. However, the significance level reduced to 5\% in the following models. The loss in the significance is the effect of introduction of the time invariant fixed effects: District and VDC.
 
 \subsubsection{Environmental Dependence and Vulnerability (FE)}
-Table \ref{tab:fixedeffect} presents the regression estimates of Fixed effects model. The model specification is same as of Pooled OLS Model and Random Effects Model. Result from Model 1 suggest that there is a negative association between the household vulnerability and environmentally dependence. However, there is no significance of the effect. Here, no control variables have been included.  
+Table \ref{tab:fixedeffect} presents the regression estimates of Fixed effects model. Result from Model 1 suggest that there is a negative association between the household vulnerability and environmentally dependence. However, there is no significance of the effect. Here, no control variables have been included.  
 
 \begin{table}[htb] 
 	\caption{Fixed Effects Regression}  
@@ -229,41 +212,20 @@ Table \ref{tab:fixedeffect} presents the regression estimates of Fixed effects m
 	\label{tab:fixedeffect}
 \end{table}
 
-Controls such as: Debt; Dependency; and Shock have been included in the following models 2, 3 and 4 respectively. Debt, in the model 2 also had a negative effect on household's vulnerability, indicating that the debt reduces the household vulnerability. The effect is not significance nevertheless. The direction has remained unchanged. In model 3 and 4, dependency ratio had a significantly positive effect on household vulnerability. The coefficient and significance is consistent in model 5. Shock in the model 4 had a positive and significant effect on household vulnerability. 
-
-In models 5, 6, and 7, Fixed Effects Regression was employed, incorporating Year, District, and VDC fixed effects in successive iterations. In model 5, the inclusion of Year fixed effects revealed a negative but statistically insignificant impact of Debt on household vulnerability. Conversely, the Dependency ratio exhibited a positive and statistically significant association with household vulnerability. The Shock variable displayed a positive yet statistically insignificant effect on the dependent variable in this model. This pattern persisted consistently in the subsequent models.
-
-Environmental dependence, consistently demonstrated a negative and insignificant effect upto model 6. However, in the model 7, the effect was positive and significant. This implies that the best fit of the model is when all the relevant and necessary variables are included in the model. 
+Environmental dependence has a negative and insignificant effect up to model 6, but a positive and significant effect in model 7. Results found that debt has a negative but insignificant impact on vulnerability, while dependency ratio has a positive effect. Shock has a positive and significant effect.
 
 \subsection{Discussions}
 \subsubsection{Household Vulnerability Index}
-With the objective of assessment of household vulnerability in the three distinct physio-graphical region: Mountain; Mid-hill; and Lowland region of Nepal, we constructed household vulnerability index for the Kunjo and Lete VDC of Mustang, Hemja VDC of Kaski and Chainpur VDC of Chitwan. We employed the Min-Max standardization in 3.5 to 3.8 for standardizing the values of the variables in order to construct the HVI. 
 
-From the HVI, we find that HVI ranged from 0.61 to 0.65 across the survey districts in the year 2006. Kunjo and Lete of Mustang district had the highest vulnerability in the year 2006. These VDCs persisted to be the most vulnerable across all waves of the survey years. It can be inferred from this that mountainous region still the most vulnerable of all. Mountainous regions of Nepal are often characterized by geographical and infrastructural difficulties which hinders the region of the opportunities. The resources in the region are scarce and unevenly distributed leading to heightened socio-economic disparities.    
+We assessed household vulnerability in three distinct physio-graphical regions of Nepal: Mountain, Mid-hill, and Lowland. The household vulnerability index (HVI) was constructed for the Kunjo and Lete VDC of Mustang, Hemja VDC of Kaski, and Chainpur VDC of Chitwan. The HVI ranged from 0.61 to 0.65 across the survey districts in 2006. The highest vulnerability was observed in the Kunjo and Lete VDC of Mustang, which persisted across all waves of the survey years. This suggests that the mountainous region remains the most vulnerable, as it is often characterized by geographical and infrastructural difficulties, scarce resources, and socio-economic disparities.
 
-
-Contrary to mountain, Hill and Lowland region enjoys more resources and infrastructural advantages. So, the HVI for these regions are less than that of Mountains.  Hemja VDC of Kaski persisted on a same level of vulnerability with 0.62. By 2012, mild changes were observed, with certain VDCs experienced lowered vulnerability across the waves of survey. Chainpur VDC of Chitwan experienced a slight decrease in vulnerability from 2006 to 2009 but the level persisted in the year 2012. Kunjo VDC of Mustang followed a similar trend.  
-
-We presented the District level as well as VDC level HVI in the radar chart in Fig 4.1 and 4.2. Similarly, we also present the Component of household vulnerability index in a stacked line with markers for each VDCs across all rounds of survey years in Figure 4.3, 4.4, 4.5 and 4.6. The persistence and transience of the vulnerability positions of each VDCs in each village is presented in a Sankey diagram in Fig 4.7.
-
+On the other hand, the Hill and Lowland regions enjoy more resources and infrastructural advantages, making the HVI less than that of the mountains. Hemja VDC of Kaski maintained a similar level of vulnerability with a 0.62 HVI. By 2012, some VDCs experienced lowered vulnerability, while Chainpur VDC of Chitwan experienced a slight decrease in vulnerability. The study presented the District and VDC level HVI in radar charts figure \ref{fig:distictlevelhvi} \& \ref{fig:vdchvisummary} and presented the component of the household vulnerability index in a stacked line with markers in figures (\ref{fig:hvichainpurComponent} - \ref{fig:hviletecomponents}) for each VDC across all survey years. We also present the persistence and transience of the vulnerability positions of each VDCs using a Sankey diagram in figure \ref{fig:sankey}. 
 
 \subsubsection{Household Vulnerability and Environmental Dependence}
-After the assessment of the vulnerability positions of the VDCs and Districts across the survey years, we carry out the empirical estimation to find the relationship between the household vulnerability and environmental dependence. For that purpose, we carry out Panel data regression employing Pooled OLS, Random Effects (RE) and Fixed Effects (FE) regression techniques. The dependent variable is household vulnerability as measured by HVI and the independent variables include Environmental dependence, Debt, Dependency ratio, Shock. Other controls are Year, District and VDC fixed effects. Yeas as a time fixed effects and District and VDC as time-invariant fixed effects were added in the model 5-7. It had its effect in changing the coefficients of the variables. 
+The study examines the relationship between household vulnerability and environmental dependence in VDCs and districts across survey years. It employs Panel data regression techniques, including Pooled OLS, Random Effects (RE), and Fixed Effects (FE) regression techniques. The dependent variable is household vulnerability, while the independent variables include environmental dependence, debt, dependency ratio, and shock. Time-invariant fixed effects were added in model 5-7 to change the coefficients of the variables.
 
-\cite{angelsen2015environmental, abbas2018sustainable, gentle2014differential} contests that environmental resource dependence had a positive effect on household vulnerability, particularly in the context of changing climate and climatic hazards. Our result confirms the findings of the literatures. Appendix Table 3, 4 and 5 presents the results of the Pooled OLS, Random Effects and Fixed Effects regression respectively. A total of 7 models have been included in the regression. based on the literature. Model 1 is a bi-variate regression whose result show that there is a significant positive relationship between Environmental dependence and household vulnerability. Model 2 to model 4 are multi-variate regression models where additional controls are added in the model consecutively. The addition of the controls in the model didn't alter the significance and direction of the effect of the Environmental dependence on household vulnerability. 
+The results confirm the findings of previous studies \citep{angelsen2015environmental, abbas2018sustainable, gentle2014differential} which show that environmental resource dependence has a positive effect on household vulnerability, especially in the context of changing climate and climatic hazards. The increasing dependence on environment for livelihoods can exacerbate vulnerability by increasing sensitivity to climate change, limited diversification of livelihood sources, increased resource degradation, and exposure to extreme idiosyncratic and co-variate shocks.
 
-In the survey districts, households rely on environmental resources for their livelihoods. The reliance is more for those households with low income and less diversified livelihood \citep{walelign2020environmental}. However, this dependence can exacerbate household vulnerability by increasing sensitivity to climate change, limited diversification of livelihood sources, increased resource degradation, exposure to extreme idiosyncratic and co-variate shocks.
+Debt is a crucial coping mechanism for households, particularly when faced with shocks \citep{rabbani2021role}. It provides financial resources to cope with shocks and invest in resilience-building measures. Debt not only acts as a cushion against shocks but also as a source of investment for productive activities, expenditure in education and healthcare, and building physical, financial, and social capital. The empirical analysis suggests that debt has a negative effect on household vulnerability, suggesting that it helps reduce vulnerability.
 
-Debt is one of the coping mechanisms of the household, particularly when faced with some sort of shock \citep{rabbani2021role}. It plays an important role in reducing the household vulnerability by providing financial resources to cope with shocks and invest in resilience-building measure. Debt not only plays a role of cushion against shocks but also as a source of investment for productive activities, expenditure in education and healthcare, builds the capitals such as physical, financial and social capital. The result of the empirical analysis suggests that debt has a negative effect on household vulnerability, implying that it helps to reduces the vulnerability.
-
-
-
-Having more dependent in the household increases the vulnerability of the household \citep{rabbani2021role, sun2020nexus}. A high dependency ratio is characterized by financial strain, reduced labor productivity, limited social support, and inter-generational transmission of poverty.  The empirical results of our study suggest that dependency ratio had a significantly positive influence on household vulnerability.
-
-
-Number of studies including \cite{buhler2018shocks, barua2020impact, volker2010rural} show that the shocks can push the household to be vulnerable. Shocks increase household vulnerability by disrupting livelihoods, depleting assets, exacerbating food insecurity and malnutrition, imposing health impacts and healthcare costs, causing psychological trauma, etc. The results of our study also suggest that shock had a positive influence in all of the models.
-
-Overall, this paper study finds that environmental dependence is able to positively influence household vulnerability. Similarly dependency ratio and shock variables are able also had a positive effect on household vulnerability. Debt had a negative effect on household vulnerability.   
-
-
-
+The study reveals that household vulnerability is significantly influenced by the dependency ratio, which is characterized by financial strain, reduced labor productivity, limited social support, and inter-generational transmission of poverty \citep{rabbani2021role, sun2020nexus}. Idiosyncratic shocks, such as disruptions in livelihoods, depletion of assets, food insecurity, malnutrition, health impacts, healthcare costs, and psychological trauma, also increase vulnerability \cite{buhler2018shocks, barua2020impact, volker2010rural}. The study finds that environmental dependence positively influences household vulnerability, while dependency ratio and shock variables also have a positive effect. Debt, however, has a negative effect on household vulnerability.
