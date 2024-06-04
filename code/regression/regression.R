@@ -216,50 +216,14 @@ re_results<- stargazer(
 
 ##------------------------Test the need for time fixed effects----------------##
   time_fe<-plmtest(pols.7, test="time")
- 
-  library("xtable")
-  xtable()
-  stargazer(time_fe, type = "latex", style = "default")
-  time_fe <- stargazer(
-    time_fe,
-    type = "latex", # Specify LaTeX output
-    title = "Lagrange Multiplier Test - (Honda) Time Effects Test",
-    style = "default",
-    out = paste0(output, "diagnostic_tests/time_effects_honda.tex") # Specify the output file
- )
 
 ##--------------F test the need for need for individual fixed effects-----------
-  indv_fe<-plmtest(fe.7, effect = "individual")
-  indv_fe <- stargazer(
-    time_fe,
-    type = "latex", # Specify LaTeX output
-    title = "Lagrange Multiplier Test - (Honda) Time Effects Test",
-    style = "default",
-    out = paste0(output, "diagnostic_tests/time_effects_honda.tex") # Specify the output file
-  )
+  indv_fe<-plmtest(pols.7, test = "individual")
+ 
 ##----------------------------BP-LM test for RE vs OLS------------------------##
   bp_lm<-plmtest(pols.7, type=c("bp"))
 
 ##---------------------------Hausman Test for FE vs RE------------------------##
   hausman<-phtest(re.7, fe.7)
 
-Sankey<-readxl::read_excel("C:\\Users\\DELL\\Desktop\\Sankey.xlsx", sheet = "Sheet3")
-
-install.packages("tidyverse")
-library(tidyverse)
-install.packages("networkD3")
-library(networkD3)
-
-Sankey_long <- df %>%
-  pivot_longer(cols = starts_with("HVI_Cat_1"), names_to = "Year", values_to = "HVI_Cat_1") %>%
-  filter(HVI_Cat1 != "Low")  # Filter out rows with "Low" HVI_Cat
-
-latex_code <- stargazer(
- pFtest,
-  type = 'text', # Specify LaTeX output
-  title = "Breusch Pagan Lagrange Multiplier test for Random effects",
-  out = "D:\\Research\\A unique environmental augmented household-level livelihood dataset from Nepal\\Thesis\\WRITE-UP\\BPLM.tex" # Specify the output file
-)
-
-pFtest <- plmtest((pols.4), type = "bp")
-
+  pFtest <- plmtest((pols.7), type = "bp")
