@@ -8,14 +8,14 @@ rm(list=ls())
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 library("dplyr")
-library("xtable")
+library("stargazer")
 data_dir<-"../dataset/raw/"
 output  <-"/../output/"
 data <- read.csv(paste0(data_dir, "data_pen.csv"))
 
 ##----------------------------removing missing data-----------------------------
 no_missing_data<-na.omit(data)
-
+saveRDS(no_missing_data, "../dataset/intermediate/no_missing_data.rds")
 ##---------------------------renaming variable names----------------------------
 renamed_data<-no_missing_data |> 
   rename(hh_code                 = household_code,
@@ -50,7 +50,7 @@ renamed_data<-no_missing_data |>
   select(-c(contains("High_")   | contains("low_") | contains("other_imp")| 
             contains("livstk")  | contains("hives")| contains("sqm")| 
             contains("inc_aeu_")| contains("aeu_")))
-
+saveRDS(renamed_data, "../dataset/intermediate/renamed_data.rds")
 ##---------------Counting number of shocks and livelihoods----------------------
 ##------------------------------------Shocks------------------------------------
 count_data<-renamed_data |> 
@@ -64,7 +64,7 @@ count_data<-renamed_data |>
          shocks_no               = shock_less_severe + shock_more_severe)  |> 
   select(-c(contains("Serious") | contains("Death_") |
             contains("loss_")   | contains("_social")|contains("_severe")))
-
+saveRDS(count_data, "../dataset/intermediate/shock_count_data.rds")
 ##------------------------------------Livelihoods-------------------------------
 
 ##----------------------Selecting the variables of interest to count------------
@@ -75,7 +75,7 @@ selected_vars<-c("env_income",   "crop_income",    "livestock_income",
 ##--------Counting the Livelihoods(variables with non-zero columns)-------------
 livelihood_data <- count_data %>% 
   mutate(livelihood_no      = rowSums(select(., selected_vars) != 0))
-
+saveRDS(livelihood_data, "../dataset/intermediate/livelihood_count_data.rds")
 ##-----------------------------grouping data by hh_code-------------------------
 grouped_data<-livelihood_data[order(livelihood_data$hh_code),]
 
@@ -94,6 +94,7 @@ full_panel<-panel_id_data |>
   select(-c(contains("yr") |contains("Head_"), crop_income:wage_income)) 
 
 full_panel<-full_panel[order(full_panel$hh_code),]
+saveRDS(full_panel, "../dataset/processed/full_panel.rds")
 
 ##-------------------------Applying Mini-max/Maxi-min scaling-------------------
 ##------------------------Setting the formulae for the scaling------------------
@@ -121,7 +122,7 @@ full_panel<-full_panel[order(full_panel$hh_code),]
 ########## Creating Dataframe after scaling ###########
 prep_data <- full_panel %>% mutate(across(all_of(min_max_vars), min_max_scale), 
                                    across(all_of(max_min_vars), max_min_scale))
-
+saveRDS(prep_data, "../dataset/processed/normalised_data.rds")
 #######Adding the variables#########
 hvi_data <- prep_data %>%
   mutate(hvi                     = (hh_age      + hh_edu      + max_hh_edu  + 
@@ -142,9 +143,13 @@ join_data<-hvi_data |>
 
 
 final_data<-left_join(full_panel, join_data, by = "hh_code")
-##---------getting mean and standard deviation by year, district and vdc--------
-  library(dplyr)
-  mean_sd <- final_data %>%
+saveRDS(final_data, "../dataset/processed/final_data.rds")
+##============================================================================##
+
+##----------------mean and standard deviation by year, district---------------##
+##------------------Variables used in construction of hvi---------------------##
+  
+  mean_sd_1 <- final_data %>%
   group_by(year, district) %>%
   summarise(
             mean_hh_age          = mean(hh_age),
@@ -153,6 +158,8 @@ final_data<-left_join(full_panel, join_data, by = "hh_code")
             sd_hh_edu            = sd(hh_edu),
             mean_max_hh_edu      = mean(max_hh_edu),  # Fix: Add closing parenthesis here
             sd_max_hh_edu        = sd(max_hh_edu),
+            mean_hh_caste        = mean(hh_caste),
+            sd_hh_caste          = sd(hh_caste),
             mean_male_adult_no   = mean(male_adult_no),
             sd_male_adult_no     = sd(male_adult_no),
             mean_female_adult_no = mean(female_adult_no),
@@ -180,6 +187,7 @@ final_data<-left_join(full_panel, join_data, by = "hh_code")
   mutate(   mean_sd_hh_age          = paste(mean_hh_age, " (", sd_hh_age, ")"),
             mean_sd_hh_edu          = paste(mean_hh_edu, " (", sd_hh_edu, ")"),
             mean_sd_max_hh_edu      = paste(mean_max_hh_edu, " (", sd_max_hh_edu, ")"),
+            mean_sd_hh_caste        = paste(mean_hh_caste, " (", sd_hh_caste, ")"),
             mean_sd_male_adult_no   = paste(mean_male_adult_no, " (", sd_male_adult_no, ")"),
             mean_sd_female_adult_no = paste(mean_female_adult_no, " (", sd_female_adult_no, ")"),
             mean_sd_child_no        = paste(mean_child_no, " (", sd_child_no, ")"),
@@ -192,9 +200,28 @@ final_data<-left_join(full_panel, join_data, by = "hh_code")
             mean_sd_jewellery       = paste(mean_jewellery, " (", sd_jewellery, ")"),
             mean_sd_livelihood_no   = paste(mean_livelihood_no, " (", sd_livelihood_no, ")"),
             mean_sd_hvi             = paste(mean_hvi, " (", sd_hvi, ")"))
-  mean_sd <- xtable(mean_sd, type = "latex")
-  file_path <- paste0(output, "summary_statistics/mean_sd.tex")
-  print(mean_sd, file = file_path)
-  
-mean_sd<-xtable(mean_sd, type = "latex", file = "paste0(output, "summary_statistics/mean_sd.tex"))
-write.xlsx(hvi_stats_year_district_village_, file ="D:\\Research\\A unique environmental augmented household-level livelihood dataset from Nepal\\Thesis\\Summary stats\\Not scaled HVI stats\\Not-Sclaed HVI stats.xlsx")
+
+mean_sd<-stargazer(mean_sd, title = "Mean and Standard Deviation of variables used in HVI construction", align = T, out = "../output/summary_statistics/mean_sd.tex")
+
+##============================================================================##
+
+##------------------------Environmental dependence and hvi--------------------##
+
+mean_sd_2 <- final_data %>%
+  group_by(year, district, vdc) %>%
+  summarise(
+            mean_env_dependence      = mean(ln_env_tot_income_ratio),
+            sd_env_dependence        = sd(ln_env_tot_income_ratio),
+            mean_dependency_ratio    = mean(dependency_ratio),
+            sd_dependency_ratio      = sd(dependency_ratio),
+            mean_debt                = mean(debt),  # Fix: Add closing parenthesis here
+            sd_debt                  = sd(debt),
+            mean_shock               = mean(shocks_no),
+            sd_shock                 = sd(shocks_no)) %>%
+  mutate(   mean_sd_env_dependence   = paste(mean_env_dependence, " (", sd_env_dependence, ")"),
+            mean_sd_dependency_ratio = paste(mean_dependency_ratio, " (", sd_dependency_ratio, ")"),
+            mean_sd_debt             = paste(mean_debt, " (", sd_debt, ")"),
+            mean_sd_shock            = paste(mean_shock, " (", sd_shock, ")"))
+
+mean_sd<-stargazer(mean_sd, title = "Mean and Standard Deviation of Environmental dependence and hvi", align = T, out = "../output/summary_statistics/mean_sd.tex")
+
