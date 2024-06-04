@@ -16,7 +16,7 @@ library(plm)
 library(stargazer)
 
 ##-----------------Decalre data to be a Panel-----------------------------------
-pdata<-pdata.frame(data, index=c("hh_code", "year"))
+pdata<-pdata.frame(data, index=c("year", "hh_id"))
 
 ##--------------------Setting pooled ols regression formulae--------------------
 
@@ -86,10 +86,10 @@ pols.7 <- models[[7]]
 
 ##--------------------Setting random effects regression formulae----------------
 
-formula <- HVI ~ ln_Env_Tot_Ratio_Trsfm1
+formula <- hvi ~ ln_env_tot_income_ratio
 
-adding_variables <- c("ln_Debt",      "Depndency_ratio", "shock", 
-                      "factor(Year)", "factor(Dist)",    "factor(VDC)")
+adding_variables <- c("ln_debt",      "dependency_ratio", "shocks_no", 
+                      "factor(year)", "factor(district)",    "factor(vdc)")
 
 models <- list()
 
