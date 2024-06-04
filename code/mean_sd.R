@@ -130,8 +130,10 @@ hvi_data <- prep_data %>%
                                     hh_caste    + bank_saving + jewellery   + 
                                     livelihood_no)/10,
          env_tot_income_ratio    = (env_income/total_income),
-         env_tot_income_ratio    = env_tot_income_ratio + 2.409811,  #2.409811 was added to make the negative values to 1 for log transformation
-         ln_env_tot_income_ratio = log(env_tot_income_ratio),
+         env_tot_income_ratio    = case_when(env_tot_income_ratio == "NaN" ~ 0,
+                                                                      TRUE ~ env_tot_income_ratio),
+         env_tot_income_ratio_    = env_tot_income_ratio + 2.409811,  #2.409811 was added to make the negative values to 1 for log transformation
+         ln_env_tot_income_ratio = log(env_tot_income_ratio_),
          dependency_ratio        = (child_no+elders_no)/(male_adult_no + female_adult_no),
          dependency_ratio        = case_when(dependency_ratio == "Inf" ~ 0,
                                                                   TRUE ~ dependency_ratio),
@@ -210,8 +212,8 @@ mean_sd<-stargazer(mean_sd, title = "Mean and Standard Deviation of variables us
 mean_sd_2 <- final_data %>%
   group_by(year, district, vdc) %>%
   summarise(
-            mean_env_dependence      = mean(ln_env_tot_income_ratio),
-            sd_env_dependence        = sd(ln_env_tot_income_ratio),
+            mean_env_dependence      = mean(env_tot_income_ratio),
+            sd_env_dependence        = sd(env_tot_income_ratio),
             mean_dependency_ratio    = mean(dependency_ratio),
             sd_dependency_ratio      = sd(dependency_ratio),
             mean_debt                = mean(debt),  # Fix: Add closing parenthesis here
@@ -224,4 +226,5 @@ mean_sd_2 <- final_data %>%
             mean_sd_shock            = paste(mean_shock, " (", sd_shock, ")"))
 
 mean_sd<-stargazer(mean_sd, title = "Mean and Standard Deviation of Environmental dependence and hvi", align = T, out = "../output/summary_statistics/mean_sd.tex")
+
 

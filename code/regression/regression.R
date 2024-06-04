@@ -9,21 +9,21 @@ setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 data_dir<-"../../dataset/"
 output  <-"../../output/"
-data <- read_dta(paste0(data_dir, "PANEL17012024.dta"))
+data <- readRDS(paste0(data_dir, "/processed/final_data.rds"))
 
 
 library(plm)
 library(stargazer)
 
 ##-----------------Decalre data to be a Panel-----------------------------------
-pdata<-pdata.frame(data, index=c("HH_Code", "Year"))
+pdata<-pdata.frame(data, index=c("hh_code", "year"))
 
 ##--------------------Setting pooled ols regression formulae--------------------
 
-formula <- HVI ~ ln_Env_Tot_Ratio_Trsfm1
+formula <- hvi ~ ln_env_tot_income_ratio
 
-adding_variables <- c("ln_Debt",      "Depndency_ratio", "shock", 
-                      "factor(Year)", "factor(Dist)",    "factor(VDC)")
+adding_variables <- c("ln_debt",      "dependency_ratio", "shocks_no", 
+                      "factor(year)", "factor(district)",    "factor(vdc)")
 
 models <- list()
 
