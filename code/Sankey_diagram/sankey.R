@@ -1,10 +1,23 @@
-library(dplyr)
-library(ggalluvial)
+## clear plots
+if(!is.null(dev.list()))dev.off()
+
+## clean workspace
+rm(list=ls())
+
+## set working directory
+setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+
+data_dir<-"../../dataset/"
+output  <-"../../output/"
+
+library("tidyverse")
+library("tidyr")
+library("ggalluvial")
 # nice themes
-library(ggthemes)
+library("ggthemes")
 # nice colors
-library(viridis)
-library(ggplot2)
+library("viridis")
+library("ggplot2")
 
 
 #############Sankey diagram construction####################
@@ -1292,6 +1305,6 @@ Sankey4 %>%
   scale_fill_manual(values = c("red", "white", "green"))
 
 
-save.image(Sankey4, )  
+#savePlot(filename = paste0(output, "graphs and figures/sankey_diagram.pdf"), type = "pdf")  
   
   

@@ -227,3 +227,5 @@ re_results<- stargazer(
   hausman<-phtest(re.7, fe.7)
 
   pFtest <- plmtest((pols.7), type = "bp")
+
+  

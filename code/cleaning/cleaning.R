@@ -9,13 +9,13 @@ setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 library("dplyr")
 library("stargazer")
-data_dir<-"../dataset/raw/"
-output  <-"/../output/"
+data_dir<-"../../dataset/raw/"
+output  <-"/../../output/"
 data <- read.csv(paste0(data_dir, "data_pen.csv"))
 
 ##----------------------------removing missing data-----------------------------
 no_missing_data<-na.omit(data)
-saveRDS(no_missing_data, "../dataset/intermediate/no_missing_data.rds")
+saveRDS(no_missing_data, "../../dataset/intermediate/no_missing_data.rds")
 ##---------------------------renaming variable names----------------------------
 renamed_data<-no_missing_data |> 
   rename(hh_code                 = household_code,
@@ -50,7 +50,7 @@ renamed_data<-no_missing_data |>
   select(-c(contains("High_")   | contains("low_") | contains("other_imp")| 
               contains("livstk")  | contains("hives")| contains("sqm")| 
               contains("inc_aeu_")| contains("aeu_")))
-saveRDS(renamed_data, "../dataset/intermediate/renamed_data.rds")
+saveRDS(renamed_data, "../../dataset/intermediate/renamed_data.rds")
 ##---------------Counting number of shocks and livelihoods----------------------
 ##------------------------------------Shocks------------------------------------
 count_data<-renamed_data |> 
@@ -64,7 +64,7 @@ count_data<-renamed_data |>
          shocks_no               = shock_less_severe + shock_more_severe)  |> 
   select(-c(contains("Serious") | contains("Death_") |
               contains("loss_")   | contains("_social")|contains("_severe")))
-saveRDS(count_data, "../dataset/intermediate/shock_count_data.rds")
+saveRDS(count_data, "../../dataset/intermediate/shock_count_data.rds")
 ##------------------------------------Livelihoods-------------------------------
 
 ##----------------------Selecting the variables of interest to count------------
@@ -75,7 +75,7 @@ selected_vars<-c("env_income",   "crop_income",    "livestock_income",
 ##--------Counting the Livelihoods(variables with non-zero columns)-------------
 livelihood_data <- count_data %>% 
   mutate(livelihood_no      = rowSums(select(., selected_vars) != 0))
-saveRDS(livelihood_data, "../dataset/intermediate/livelihood_count_data.rds")
+saveRDS(livelihood_data, "../../dataset/intermediate/livelihood_count_data.rds")
 ##-----------------------------grouping data by hh_code-------------------------
 grouped_data<-livelihood_data[order(livelihood_data$hh_code),]
 
@@ -96,7 +96,7 @@ full_panel<-panel_id_data |>
   select(hh_id, everything())
 
 full_panel<-full_panel[order(full_panel$hh_code),]
-saveRDS(full_panel, "../dataset/processed/full_panel.rds")
+saveRDS(full_panel, "../../dataset/processed/full_panel.rds")
 
 ##-------------------------Applying Mini-max/Maxi-min scaling-------------------
 ##------------------------Setting the formulae for the scaling------------------
@@ -124,7 +124,7 @@ max_min_vars <- c("hh_age",     "hh_edu",      "max_hh_edu",
 ########## Creating Dataframe after scaling ###########
 prep_data <- full_panel %>% mutate(across(all_of(min_max_vars), min_max_scale), 
                                    across(all_of(max_min_vars), max_min_scale))
-saveRDS(prep_data, "../dataset/processed/normalised_data.rds")
+saveRDS(prep_data, "../../dataset/processed/normalised_data.rds")
 #######Adding the variables#########
 hvi_data <- prep_data %>%
   mutate(hvi                     = (hh_age      + hh_edu      + max_hh_edu  + 
@@ -148,5 +148,5 @@ join_data<-hvi_data |>
 
 
 final_data<-left_join(full_panel, join_data, by = c("hh_id", "hh_code"))
-saveRDS(final_data, "../dataset/processed/final_data.rds")
+saveRDS(final_data, "../../dataset/processed/final_data.rds")
 ##============================================================================##

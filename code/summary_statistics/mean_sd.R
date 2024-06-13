@@ -10,8 +10,8 @@ setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 library("dplyr")
 library("stargazer")
 library("xtable")
-data_dir<-"../dataset/"
-output  <-"../output/"
+data_dir<-"../../dataset/"
+output  <-"../../output/"
 data <- readRDS(paste0(data_dir, "processed/final_data.rds"))
 
 ##----------------mean and standard deviation by year, district---------------##
@@ -79,7 +79,7 @@ data <- readRDS(paste0(data_dir, "processed/final_data.rds"))
   # )
 
 a<-xtable(mean_sd_1)
-save(a, file = "D:/Research/Sanjeev_Thesis_to_Paper/output/summary_statistics/mean_sd_hvi.tex")
+save(a, file = paste0(output, "summary_statistics/mean_sd_hvi.tex"))
 ##============================================================================##
 
 ##------------------------Environmental dependence and hvi--------------------##
@@ -101,5 +101,5 @@ mean_sd_2 <- data %>%
             mean_sd_shock            = paste(mean_shock, " (", sd_shock, ")"))
 
 xtable(mean_sd_2, include.rownames = T)
-print(xtable, file = "../output/summary_statistics/mean_sd_env_hvi.tex")
+print(xtable, file = paste0(output, "summary_statistics/mean_sd_env_hvi.tex"))
 
