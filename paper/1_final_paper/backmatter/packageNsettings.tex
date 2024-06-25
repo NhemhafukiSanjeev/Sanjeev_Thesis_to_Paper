@@ -3,7 +3,8 @@
 \setlength{\parindent}{2.1em} %indentation of paragraph
 
 %\usepackage[switch, modulo]{lineno}
-\usepackage[]{lineno}
+\usepackage[]{
+             lineno}
 %\usepackage[modulo]{lineno}
 
 \usepackage{amsmath}
@@ -112,14 +113,18 @@
 \usepackage{hyperref}
 \hypersetup{
 %draft, % Uncomment to remove all links (useful for printing in black and white)
-linktocpage,
-colorlinks=true, breaklinks=true, %bookmarks=true, bookmarksnumbered,
-urlcolor=[RGB]{128,0,0}, linkcolor=[RGB]{25,25,112}, citecolor=[RGB]{72,61,139},  % Link colors
-pdftitle={Structural divergence in gender wage gap distribution of Nepal}, % PDF title
-pdfauthor={Manab, Sanjeet, Tilak and Resham}, % PDF Author
-pdfsubject={Labor economics}, % PDF Subject
-pdfkeywords={Labor economics, Gender wage gap}, % PDF Keywords
-pdfcreator={Manab, Sanjeet, Tilak and Resham}, % PDF Creator
+linktocpage=true,
+colorlinks=true, 
+breaklinks=true, %bookmarks=true, bookmarksnumbered,
+urlcolor=[RGB]{128,0,0}, 
+linkcolor=[RGB]{25,25,112}, 
+citecolor=[RGB]{72,61,139},  % Link colors
+pdftitle={Household Vulnerability And Environmental
+Dependence in Rural Nepal}, % PDF title
+pdfauthor={Sanjeev, Resham and Bipin}, % PDF Author
+pdfsubject={Environmental economics}, % PDF Subject
+pdfkeywords={Vulnerability, Environmental Dependence, Spatial Panel Data}, % PDF Keywords
+pdfcreator={Sanjeev, Resham and Bipin}, % PDF Creator
 }
 
 \makeatletter
@@ -134,5 +139,8 @@ pdfcreator={Manab, Sanjeet, Tilak and Resham}, % PDF Creator
 %Following changes the figure and table to appendix format.
 %\renewcommand\thefigure{A\arabic{figure}} 
 %\renewcommand\thetable{A\arabic{table}}
-
-
+\wri
+\write18{del \jobname.aux}
+\write18{del \jobname.log}
+\write18{del \jobname.toc}
+\write18{del \jobname.loc}
